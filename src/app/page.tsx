@@ -5,6 +5,8 @@ import ProductShowcase from '@/components/home/ProductShowcase';
 import Sustainability from '@/components/home/Sustainability';
 import GlobalReach from '@/components/home/GlobalReach';
 import Testimonials from '@/components/home/Testimonials';
+import ContactSection from '@/components/home/ContactSection';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-latte text-foreground">
@@ -14,6 +16,7 @@ export default function Home() {
       <Sustainability />
       <GlobalReach />
       <Testimonials />
+      <ContactSection />
     </div>
   );
 }
