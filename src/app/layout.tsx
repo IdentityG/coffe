@@ -4,6 +4,7 @@ import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { CoffeeLoaderProvider } from "../components/CoffeeLoaderProvider";
 import Navbar from "../components/Navbar";
+import Footer from "../components/common/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +40,7 @@ export default function RootLayout({
         <CoffeeLoaderProvider>
           <Navbar />
           <main className="pt-20">{children}</main>
+          <Footer />
         </CoffeeLoaderProvider>
       </body>
     </html>
