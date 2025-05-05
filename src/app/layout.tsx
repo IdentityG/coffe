@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { CoffeeLoaderProvider } from "../components/CoffeeLoaderProvider";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
 
 const geistSans = Geist({

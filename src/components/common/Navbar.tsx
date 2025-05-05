@@ -4,11 +4,10 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import gsap from 'gsap';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const mobileMenuRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
   
   useEffect(() => {
