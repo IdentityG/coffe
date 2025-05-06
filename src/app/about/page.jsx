@@ -6,6 +6,7 @@ import TeamSection from '../../components/about/TeamSection'
 import ProcessSection from '../../components/about/ProcessSection'
 import ImpactSection from '../../components/about/ImpactSection'
 import CertificationsSection from '../../components/about/CertificationsSection'
+import WhyWorkWithUs from '../../components/about/WhyWorkWithUs'
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <ProcessSection />
       <ImpactSection />
       <CertificationsSection />
+      <WhyWorkWithUs />
     </div>
   )
 }
