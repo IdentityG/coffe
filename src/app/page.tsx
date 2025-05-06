@@ -6,6 +6,7 @@ import Sustainability from '@/components/home/Sustainability';
 import GlobalReach from '@/components/home/GlobalReach';
 import Testimonials from '@/components/home/Testimonials';
 import ContactSection from '@/components/home/ContactSection';
+import GallerySection from '@/components/home/GallerySection';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutSection />
       <ProductShowcase />
       <Sustainability />
+      <GallerySection />
       <GlobalReach />
       <Testimonials />
       <ContactSection />
