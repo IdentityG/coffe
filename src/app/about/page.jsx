@@ -4,6 +4,8 @@ import OriginSection from '../../components/about/OriginSection'
 import MissionSection from '../../components/about/MissionSection'
 import TeamSection from '../../components/about/TeamSection'
 import ProcessSection from '../../components/about/ProcessSection'
+import ImpactSection from '../../components/about/ImpactSection'
+import CertificationsSection from '../../components/about/CertificationsSection'
 
 const page = () => {
   return (
@@ -13,6 +15,8 @@ const page = () => {
       <MissionSection />
       <TeamSection />
       <ProcessSection />
+      <ImpactSection />
+      <CertificationsSection />
     </div>
   )
 }
