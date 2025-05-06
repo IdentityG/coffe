@@ -92,7 +92,24 @@ const CoffeeLoader = ({ onLoadingComplete }: CoffeeLoaderProps) => {
     >
       <motion.div 
         className="mb-8"
-        variants={beanVariants}
+        variants={{
+          hidden: { rotate: 0, scale: 0.8, opacity: 0 },
+          visible: { 
+            rotate: 360, 
+            scale: 1, 
+            opacity: 1,
+            transition: { 
+              duration: 1.5, 
+              repeat: Infinity, 
+              repeatType: "loop" as const
+            }
+          },
+          exit: { 
+            scale: 0, 
+            opacity: 0,
+            transition: { duration: 0.3 }
+          }
+        }}
       >
         <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
           <defs>
