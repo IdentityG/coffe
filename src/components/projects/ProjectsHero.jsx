@@ -7,9 +7,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
 
 // Register ScrollTrigger with GSAP
-if (typeof window !== 'undefined') {
-  gsap.registerPlugin(ScrollTrigger);
-}
+// Remove this check
+// if (typeof window !== 'undefined') {
+//   gsap.registerPlugin(ScrollTrigger);
+// }
 
 const ProjectsHero = () => {
   const sectionRef = useRef(null);
@@ -18,6 +19,9 @@ const ProjectsHero = () => {
   
   // GSAP animations for parallax and scroll effects
   useEffect(() => {
+    // Register ScrollTrigger inside useEffect
+    gsap.registerPlugin(ScrollTrigger);
+    
     if (sectionRef.current && imageRef.current) {
       // Parallax zoom effect on the background image
       gsap.to(imageRef.current, {
