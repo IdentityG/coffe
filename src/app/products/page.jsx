@@ -1,7 +1,15 @@
+'use client';
+
 import React from 'react'
 import ProjectsHero from '../../components/projects/ProjectsHero'
 import ProductShowcase from '../../components/projects/ProductShowcase'
-import ProjectMap from '../../components/projects/ProjectMap'
+import dynamic from 'next/dynamic'
+
+// Dynamically import ProjectMap with SSR disabled
+const ProjectMap = dynamic(
+  () => import('../../components/projects/ProjectMap'),
+  { ssr: false }
+)
 
 const page = () => {
   return (
