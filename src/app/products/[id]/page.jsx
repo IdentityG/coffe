@@ -5,7 +5,6 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-
 // Import the coffee products data
 import { coffeeProducts } from '../../../components/home/ProductShowcase';
 

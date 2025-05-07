@@ -114,7 +114,7 @@ const FarmerStories = () => {
       id: 1,
       name: "Abeba Desta",
       region: "Sidamo, Ethiopia",
-      image: "https://images.unsplash.com/photo-1594136976553-38728eafb8bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
       quote: "With fair trade premiums, we built a new school for our children. Now my daughter dreams of becoming an agricultural engineer.",
       impact: "📚",
       impactType: "Education"
@@ -132,7 +132,7 @@ const FarmerStories = () => {
       id: 3,
       name: "Maria Gonzalez",
       region: "Antigua, Guatemala",
-      image: "https://images.unsplash.com/photo-1599013886693-5fc5fd7a2b8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=800&q=80",
       quote: "The reforestation initiative has restored our land's health. We're growing better coffee while protecting the forest that sustains us.",
       impact: "🌱",
       impactType: "Reforestation"
