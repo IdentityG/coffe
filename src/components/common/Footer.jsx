@@ -6,8 +6,8 @@ import { motion, useInView } from 'framer-motion';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-// Register ScrollTrigger
-gsap.registerPlugin(ScrollTrigger);
+// Don't register ScrollTrigger here - move it inside useEffect
+// gsap.registerPlugin(ScrollTrigger);
 
 const Footer = () => {
   const footerRef = useRef(null);
@@ -56,8 +56,11 @@ const Footer = () => {
 
   // GSAP ScrollTrigger animations
   useEffect(() => {
+    // Register ScrollTrigger inside useEffect to avoid hydration issues
+    gsap.registerPlugin(ScrollTrigger);
+    
     if (footerRef.current) {
-      // Footer fade in animation
+      // Footer fade in animation - modified to show immediately on first load
       gsap.fromTo(
         footerRef.current,
         { opacity: 0, y: 30 },
@@ -68,8 +71,9 @@ const Footer = () => {
           ease: 'power3.out',
           scrollTrigger: {
             trigger: footerRef.current,
-            start: 'top bottom-=100',
-            toggleActions: 'play none none reverse',
+            start: 'top bottom',  // Changed from 'top bottom-=100' to be more reliable
+            toggleActions: 'play none none none', // Changed to always play
+            once: true // Add this to ensure it plays once on page load
           },
         }
       );

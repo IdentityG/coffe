@@ -6,7 +6,36 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: ['images.unsplash.com', 'plus.unsplash.com', 'upload.wikimedia.org', 'commons.wikimedia.org', 'ico.org', 'ethiopiancoffeeassociation.org'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'plus.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org',
+      },
+      {
+        protocol: 'https',
+        hostname: 'commons.wikimedia.org',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ico.org',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ethiopiancoffeeassociation.org',
+      },
+    ],
   },
 };
 

@@ -206,15 +206,12 @@ const FarmingPractices = () => {
           >
             <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=800&q=80"
+                src="/coffe.jpg"
                 alt="Sustainable coffee farming"
                 fill
                 priority
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
-                onError={(e) => {
-                  console.error('Image failed to load:', e);
-                }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-coffee-black/50 to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4">

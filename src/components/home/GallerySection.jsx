@@ -19,7 +19,7 @@ const GallerySection = () => {
   const galleryImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe",
+      src: "/coffe.jpg",
       alt: "Coffee Beans Drying",
       category: "processing",
       aspectRatio: "square", // 1:1
@@ -47,7 +47,7 @@ const GallerySection = () => {
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe",
+      src: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       alt: "Coffee Beans Close-up",
       category: "beans",
       aspectRatio: "portrait", // 3:4
