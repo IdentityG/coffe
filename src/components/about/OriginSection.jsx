@@ -124,7 +124,7 @@ const OriginSection = () => {
                 variants={itemVariants} 
                 className="text-lg text-coffee leading-relaxed"
               >
-                Ubuntu Coffee Export was born from the soil of a small family farm in Ethiopia. 
+                Mekiya Coffee Export was born from the soil of a small family farm in Ethiopia. 
                 What started as a humble operation driven by quality and care has evolved into a 
                 global export partner, delivering ethically sourced beans to roasters around the world.
               </motion.p>

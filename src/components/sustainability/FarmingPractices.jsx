@@ -380,7 +380,7 @@ const FarmingPractices = () => {
               <p className="text-coffee-dark italic text-lg md:text-xl leading-relaxed">
                 "Our commitment to sustainable farming isn't just good for the planet—it produces exceptional coffee with distinctive character and depth."
               </p>
-              <p className="text-right text-md text-coffee-light mt-4 font-medium">— The Ubuntu Coffee Export Team</p>
+              <p className="text-right text-md text-coffee-light mt-4 font-medium">— The Mekiya Coffee Export Team</p>
             </motion.div>
           </div>
         </div>

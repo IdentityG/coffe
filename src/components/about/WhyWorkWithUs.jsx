@@ -194,7 +194,7 @@ const WhyWorkWithUs = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-caramel mb-4">
-            Why Work With Ubuntu Coffee Export?
+            Why Work With Mekiya Coffee Export?
           </h2>
           <p className="max-w-3xl mx-auto text-lg text-cream-light">
             We're not just suppliers — we're partners in your success.

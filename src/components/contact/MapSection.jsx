@@ -135,7 +135,7 @@ const MapSection = () => {
               allowFullScreen="" 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ubuntu Coffee Export Location"
+              title="Mekiya Coffee Export Location"
               className="filter grayscale hover:grayscale-0 transition-all duration-500"
             />
           </div>
@@ -148,7 +148,7 @@ const MapSection = () => {
             <div className="mb-6 border-l-4 border-caramel pl-4">
               <h3 className="text-xl font-serif font-bold text-coffee-dark mb-2">Headquarters</h3>
               <address className="not-italic text-coffee-light">
-                <p className="mb-1">Ubuntu Coffee Export Center</p>
+                <p className="mb-1">Mekiya Coffee Export Center</p>
                 <p className="mb-1">Bole Road, Addis Ababa</p>
                 <p className="mb-4">Ethiopia, East Africa</p>
                 <p className="flex items-center gap-2">

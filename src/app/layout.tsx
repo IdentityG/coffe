@@ -23,7 +23,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Ubuntu Coffee Export",
+  title: "Mekiya Coffee Export",
   description: "Premium coffee exports worldwide",
 };
 

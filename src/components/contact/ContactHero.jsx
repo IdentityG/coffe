@@ -102,7 +102,7 @@ const ContactHero = () => {
             variants={textVariants}
             className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-caramel mb-6 leading-tight"
           >
-            Get in Touch With Ubuntu Coffee Export
+            Get in Touch With Mekiya Coffee Export
           </motion.h1>
           
           {/* Subheading */}
