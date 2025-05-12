@@ -35,6 +35,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'ethiopiancoffeeassociation.org',
       },
+      {
+        protocol: 'https',
+        hostname: 'via.placeholder.com'
+      }
     ],
   },
 };

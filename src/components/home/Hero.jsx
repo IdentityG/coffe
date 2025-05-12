@@ -211,7 +211,7 @@ const Hero = () => {
             {/* Button */}
             <div className="btn-wrapper">
               <Link 
-                href="/menu" 
+                href="/products" 
                 className="group relative inline-flex items-center justify-center px-8 py-3 bg-caramel text-coffee-black font-medium uppercase tracking-widest text-sm overflow-hidden transition-all duration-300 hover:bg-caramel-dark border-2 border-cream-light hover:border-caramel-dark hover:shadow-lg hover:shadow-caramel/20"
               >
                 <span className="relative z-10 flex items-center justify-center group-hover:text-cream-light transition-colors duration-300">

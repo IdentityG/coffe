@@ -6,9 +6,10 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 // Register ScrollTrigger with GSAP
-if (typeof window !== 'undefined') {
-  gsap.registerPlugin(ScrollTrigger);
-}
+// This is already done in FarmingPractices, so we can remove it here
+// if (typeof window !== 'undefined') {
+//   gsap.registerPlugin(ScrollTrigger);
+// }
 
 const SustainabilityTimeline = () => {
   const sectionRef = useRef(null);
@@ -17,9 +18,13 @@ const SustainabilityTimeline = () => {
   
   // GSAP animations for scroll reveal
   useEffect(() => {
+    // Register ScrollTrigger here instead
+    gsap.registerPlugin(ScrollTrigger);
+    
     if (sectionRef.current && timelineRef.current && lineRef.current) {
-      // Clear any existing ScrollTriggers
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+      // Clear only this component's ScrollTriggers by using specific selectors
+      // instead of killing all triggers
+      // ScrollTrigger.getAll().forEach(trigger => trigger.kill());
       
       // Get all milestone elements
       const milestones = timelineRef.current.querySelectorAll('.milestone');
@@ -92,8 +97,13 @@ const SustainabilityTimeline = () => {
     }
     
     return () => {
-      // Clean up ScrollTrigger instances
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+      // Only kill ScrollTriggers related to this component
+      const myTriggers = ScrollTrigger.getAll().filter(trigger => 
+        trigger.vars.trigger && 
+        (trigger.vars.trigger === timelineRef.current || 
+         trigger.vars.trigger.closest('#sustainability-timeline'))
+      );
+      myTriggers.forEach(trigger => trigger.kill());
     };
   }, []);
 

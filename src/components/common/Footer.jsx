@@ -11,7 +11,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const Footer = () => {
   const footerRef = useRef(null);
-  const isInView = useInView(footerRef, { once: true, margin: "-10%" });
+  // Change margin to a positive value to make it trigger earlier
+  const isInView = useInView(footerRef, { once: true, margin: "10%" });
 
   // Animation variants
   const containerVariants = {
@@ -60,7 +61,7 @@ const Footer = () => {
     gsap.registerPlugin(ScrollTrigger);
     
     if (footerRef.current) {
-      // Footer fade in animation - modified to show immediately on first load
+      // Modified to show immediately on first load without requiring scroll
       gsap.fromTo(
         footerRef.current,
         { opacity: 0, y: 30 },
@@ -69,12 +70,10 @@ const Footer = () => {
           y: 0,
           duration: 1,
           ease: 'power3.out',
-          scrollTrigger: {
-            trigger: footerRef.current,
-            start: 'top bottom',  // Changed from 'top bottom-=100' to be more reliable
-            toggleActions: 'play none none none', // Changed to always play
-            once: true // Add this to ensure it plays once on page load
-          },
+          // Remove ScrollTrigger for immediate animation
+          // or modify it to trigger immediately
+          immediateRender: true, // Ensure it renders immediately
+          delay: 0.5 // Small delay after page load
         }
       );
     }
@@ -140,7 +139,8 @@ const Footer = () => {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12"
           variants={containerVariants}
           initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
+          // Change this to always be visible, not dependent on view
+          animate="visible"
         >
           {/* Brand Column */}
           <motion.div variants={itemVariants} className="space-y-4">
@@ -295,7 +295,8 @@ const Footer = () => {
             <motion.p 
               className="text-cream/60 text-sm text-center md:text-left"
               initial={{ opacity: 0 }}
-              animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+              // Change this to always be visible
+              animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
               © {new Date().getFullYear()} Ubuntu Coffee Export. All rights reserved.
@@ -303,7 +304,8 @@ const Footer = () => {
             <motion.div 
               className="flex space-x-4 mt-4 md:mt-0"
               initial={{ opacity: 0 }}
-              animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+              // Change this to always be visible
+              animate={{ opacity: 1 }}
               transition={{ delay: 1 }}
             >
               <a href="/privacy" className="text-cream/60 hover:text-caramel text-sm transition-colors">
