@@ -19,32 +19,32 @@ const ProcessSection = () => {
     {
       icon: "🌱",
       title: "Harvesting",
-      description: "Our beans are hand-picked at peak ripeness from high-altitude farms in Ethiopia's finest growing regions.",
-      image: "https://images.unsplash.com/photo-1599578705716-8d3d9246f53b?auto=format&fit=crop&w=800&q=80"
+      description: "Hand-picked at peak ripeness from high-altitude farms in Ethiopia’s renowned coffee regions. Our relationships with farmers ensure careful handling from the beginning.",
+      image: "/images/coffee5.jpg"
     },
     {
       icon: "🧺",
       title: "Processing",
-      description: "Using both traditional and modern methods, we process our beans to preserve their unique flavor profiles.",
-      image: "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?auto=format&fit=crop&w=800&q=80"
+      description: "We employ washed, natural, and honey methods — preserving each bean’s origin character while blending traditional knowledge with modern infrastructure for consistent quality.",
+      image: "/images/process.jpg"
     },
     {
       icon: "🏭",
       title: "Quality Control",
-      description: "Every batch undergoes rigorous testing and cupping to ensure only the finest beans make it to our clients.",
-      image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+      description: "Each batch is evaluated through rigorous physical sorting, cupping, and moisture testing. Only the finest beans — by flavor and structure — meet Mekiya’s export standard.",
+      image: "/images/quality.webp"
     },
     {
       icon: "📦",
       title: "Packaging",
-      description: "We use climate-controlled facilities and sustainable packaging to maintain freshness and minimize environmental impact.",
-      image: "https://images.unsplash.com/photo-1610889556528-9a770e32642f?auto=format&fit=crop&w=800&q=80"
+      description: "Our coffee is packed in climate-controlled environments using GrainPro-lined bags and eco-conscious materials to maintain freshness.",
+      image: "/images/package.png"
     },
     {
       icon: "🚢",
       title: "Global Shipping",
-      description: "Our logistics network ensures timely delivery to roasters worldwide, with full traceability from farm to destination.",
-      image: "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=800&q=80"
+      description: "With established logistics partners and a commitment to full traceability, we ensure timely, transparent delivery — from Ethiopian farms to roasters across the world.",
+      image: "/images/shipping.avif"
     },
   ];
 
@@ -152,7 +152,7 @@ const ProcessSection = () => {
             From Farm to Freight: Our Process
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-cream-light">
-            Every bean that leaves our facility follows a carefully crafted journey to ensure quality and sustainability.
+            Every bean we export follows a meticulous journey — one that blends heritage, quality, and sustainability from Ethiopia’s highlands to the global stage.
           </p>
         </motion.div>
 

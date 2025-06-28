@@ -11,142 +11,136 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Export the coffee products data so it can be imported in other components
 export const coffeeProducts = [
-  {
+   {
     id: 1,
-    name: "Yirga cheffe",
-    origin: "Sidama, Ethiopia",
-    grade: "Grade +1",
+    name: "Yirgacheffe",
+    origin: "Gedeo Zone, Southern Ethiopia",
+    grade: "Grade 1",
     process: "Washed",
-    image: "https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?q=80&w=2069",
+    altitude: "1,800–2,200 meters",
+    harvest: "October–December",
     certifications: ["Organic", "Fair Trade"],
-    // Additional data for product detail page
-    description: "A bright, complex coffee with floral and citrus notes. Grown in the highlands of Ethiopia, this coffee showcases the unique terroir of the Yirgacheffe region.",
-    altitude: "1,800-2,200 meters",
-    harvest: "October-December",
     flavor_profile: ["Jasmine", "Lemon", "Bergamot", "Black Tea"],
     roast_level: "Light to Medium",
     price: 18.99,
+    image: "/images/yirga1.jpg",
+    description: "Floral aroma with citrusy brightness. Yirgacheffe is renowned for clean, complex flavors and vibrant acidity.",
     size_options: ["250g", "500g", "1kg"],
     brewing_methods: ["Pour Over", "Drip", "AeroPress"],
-    story: "Our Ethiopian Yirgacheffe comes from small-scale farmers who are part of the Yirgacheffe Coffee Farmers Cooperative Union. These farmers use traditional methods passed down through generations, growing coffee under the shade of native trees.",
+    story: "Sourced from smallholder farms in the Gedeo Zone, Yirgacheffe beans are carefully washed and sun-dried under traditional methods.",
     farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
+      "/images/yirga2.jpg",
+      "/images/yirga1.jpg"
     ]
   },
   {
     id: 2,
-    name: "Yirga Cheffe",
-    origin: "Sidama, Ethiopia",
-    grade: "Yirga Cheffe Grade +2",
-    process: "Washed",
-    image: "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?q=80&w=2070",
-    certifications: ["Rainforest Alliance"],
-    // Additional data for product detail page
-    description: "A well-balanced coffee with caramel sweetness and a smooth, clean finish. Colombia's rich volcanic soil and ideal climate produce beans of exceptional quality.",
-    altitude: "1,400-1,800 meters",
-    harvest: "April-June, October-December",
-    flavor_profile: ["Caramel", "Chocolate", "Walnut", "Red Apple"],
+    name: "Sidamo",
+    origin: "Sidama Region, Ethiopia",
+    grade: "Grade 2",
+    process: "Natural",
+    altitude: "1,500–2,200 meters",
+    harvest: "November–February",
+    certifications: ["Organic"],
+    flavor_profile: ["Berry", "Wine", "Cocoa", "Lemon Zest"],
     roast_level: "Medium",
-    price: 16.99,
+    price: 17.99,
+    image: "/images/sidamo1.jpg",
+    description: "Naturally processed for a fruit-forward cup with balanced body and sweet acidity.",
     size_options: ["250g", "500g", "1kg"],
-    brewing_methods: ["Espresso", "French Press", "Drip"],
-    story: "Our Yirga Cheffe Grade +2 comes from family-owned farms in the Sidama region. These farmers take pride in their meticulous approach to cultivation and processing, resulting in beans of exceptional quality and consistency.",
+    brewing_methods: ["French Press", "Cold Brew", "Moka Pot"],
+    story: "From highland farms in Sidama, this coffee showcases berry tones and wine-like complexity through natural processing.",
     farm_images: [
-      "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=2578",
-      "https://images.unsplash.com/photo-1499744937866-d7e566a20a61?q=80&w=2670"
+      "/images/sidamo2.jpg",
+      "/images/sidamo3.jpg"
     ]
   },
   {
     id: 3,
-    name: "Sidamo",
-    origin: "Sidama, Ethiopia",
-    grade: "Grade +1",
+    name: "Guji",
+    origin: "Guji Zone, Oromia Region",
+    grade: "Grade 1",
     process: "Natural",
-    image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=1974",
-    certifications: ["Organic"],
-    // Additional data for product detail page
-    description: "A full-bodied, earthy coffee with low acidity and notes of dark chocolate, cedar, and spice. The unique wet-hulling process gives this coffee its distinctive character.",
-    altitude: "900-1,500 meters",
-    harvest: "October-March",
-    flavor_profile: ["Dark Chocolate", "Cedar", "Tobacco", "Earthy Spice"],
-    roast_level: "Medium-Dark",
-    price: 17.99,
+    altitude: "1,800–2,100 meters",
+    harvest: "November–January",
+    certifications: ["Organic", "Fair Trade"],
+    flavor_profile: ["Peach", "Apricot", "Clove", "Tropical Fruit"],
+    roast_level: "Medium",
+    price: 19.99,
+    image: "/images/gujii1.webp",
+    description: "Fruity and spicy, Guji coffees offer a dynamic cup filled with sweet, stone fruit and warm spice tones.",
     size_options: ["250g", "500g", "1kg"],
-    brewing_methods: ["French Press", "Cold Brew", "Moka Pot"],
-    story: "Our Sumatra Mandheling is sourced from small-holder farmers around Sidama. The traditional wet-hulling process (known locally as 'Giling Basah') gives these beans their distinctive earthy character and full body.",
+    brewing_methods: ["Pour Over", "AeroPress", "Drip"],
+    story: "Guji's volcanic soils and high altitudes produce exceptional coffees known for their bold character and aromatic intensity.",
     farm_images: [
-      "https://images.unsplash.com/photo-1504113888839-1c8eb50233d3?q=80&w=2415",
-      "https://images.unsplash.com/photo-1551609189-aba53e01a0bb?q=80&w=2574"
+      "/images/gujii2.webp",
+      "/images/gujii3.webp"
     ]
   },
   {
     id: 4,
-    name: "Guji",
-    origin: "Oromia, Ethiopia",
-    grade: "Grade +4",
+    name: "Harrar",
+    origin: "Eastern Ethiopia (Harari)",
+    grade: "Grade 4",
     process: "Natural",
-    image: "https://images.unsplash.com/photo-1497636577773-f1231844b336?q=80&w=1974",
-    certifications: ["Fair Trade", "Organic"],
-    // Additional data for product detail page
-    description: "A sweet, complex coffee with notes of honey, orange, and almond. The honey processing method enhances the natural sweetness of these high-grown beans.",
-    altitude: "1,500-1,900 meters",
-    harvest: "December-March",
-    flavor_profile: ["Honey", "Orange", "Almond", "Cinnamon"],
-    roast_level: "Medium",
-    price: 19.99,
+    altitude: "1,510-2,120 meters",
+    harvest: "October–February",
+    certifications: ["Organic"],
+    flavor_profile: ["Raisin", "Blueberry", "Wine", "Spice"],
+    roast_level: "Medium-Dark",
+    price: 18.49,
+    image: "/images/harar1.jpeg",
+    description: "Bold and rustic with wine-like body and chocolate undertones, Harrar coffees are full of intensity.",
     size_options: ["250g", "500g", "1kg"],
-    brewing_methods: ["Pour Over", "AeroPress", "Drip"],
-    story: "Our Guji coffee comes from the Oromia region Guji, which has been a pioneer in sustainable coffee production. Their honey processing method involves removing the cherry skin while leaving some of the fruit mucilage on the bean during drying, resulting in a sweeter cup.",
+    brewing_methods: ["Espresso", "Moka Pot", "French Press"],
+    story: "Handpicked and sun-dried, Harrar beans deliver a rich, dry-processed flavor Ethiopia is famous for.",
     farm_images: [
-      "https://images.unsplash.com/photo-1524350876685-274059728c24?q=80&w=2671",
-      "https://images.unsplash.com/photo-1591287038628-9a63d8f50dbb?q=80&w=2574"
+      "/images/harar2.jpg",
+      "/images/harar1.jpeg"
     ]
   },
   {
     id: 5,
     name: "Limu",
-    origin: "Oromia, Ethiopia",
-    grade: "Grade +2",
+    origin: "Jimma Zone, Oromia Region",
+    grade: "Grade 2",
     process: "Washed",
-    image: "https://cdn.pixabay.com/photo/2017/04/21/12/11/coffe-2248569_640.jpg",
+    altitude: "1,700–2,100 meters",
+    harvest: "October–December",
     certifications: ["Rainforest Alliance"],
-    // Additional data for product detail page
-    description: "A bright, juicy coffee with pronounced acidity and notes of blackcurrant, grapefruit, and blackberry. Kenya's unique soil conditions and processing methods produce some of the world's most distinctive coffees.",
-    altitude: "1,700-2,100 meters",
-    harvest: "October-December",
-    flavor_profile: ["Blackcurrant", "Grapefruit", "Blackberry", "Tomato"],
+    flavor_profile: ["Citrus", "Black Tea", "Floral", "Honey"],
     roast_level: "Medium-Light",
     price: 21.99,
+    image: "/images/limu1.jpg",
+    description: "Bright citrus acidity and floral complexity define this washed Limu coffee.",
     size_options: ["250g", "500g", "1kg"],
     brewing_methods: ["Pour Over", "AeroPress", "Siphon"],
-    story: "Our Limu beans come from small farms in the foothills ofOromia region. The 'Grade +2' designation indicates the largest bean size, which often correlates with higher quality. These beans are processed at centralized washing stations where meticulous sorting and fermentation bring out their distinctive flavors.",
-    farm_images: [
-      "https://images.unsplash.com/photo-1612392062631-94b23bc8c510?q=80&w=2574",
-      "https://images.unsplash.com/photo-1500423079914-b65af272b8db?q=80&w=2670"
+    story: "Collected from certified farms near Jimma, Limu is known for refined acidity and aromatic elegance.",
+   farm_images: [
+      "/images/limu2.avif",
+      "/images/limu3.webp"
     ]
   },
   {
     id: 6,
-    name: "DJimma",
-    origin: "Oromia, Ethiopia",
-    grade: "Grade +5",
+    name: "Lekempti",
+    origin: "East Wollega, Oromia",
+    grade: "Grade 4",
     process: "Natural",
-    image: "https://cdn.pixabay.com/photo/2017/04/28/13/07/coffee-2268307_640.jpg",
-    certifications: ["Organic"],
-    // Additional data for product detail page
-    description: "A refined coffee with elegant acidity, full body, and notes of chocolate, spice, and subtle fruit. Grown in volcanic soil at high altitudes in the Antigua Valley.",
-    altitude: "1,500-1,800 meters",
-    harvest: "January-March",
-    flavor_profile: ["Chocolate", "Cinnamon", "Apple", "Orange"],
+    altitude: "1,600–2,100 meters",
+    harvest: "October–January",
+    certifications: ["Organic", "Fair Trade"],
+    flavor_profile: ["Nutty", "Spice", "Cocoa", "Mild Citrus"],
     roast_level: "Medium",
-    price: 18.49,
+    price: 17.49,
+    image: "/images/lekempti1.jpg",
+    description: "Nutty and spicy with mild acidity, Lekempti offers a well-rounded cup with gentle complexity.",
     size_options: ["250g", "500g", "1kg"],
-    brewing_methods: ["Espresso", "Pour Over", "French Press"],
-    story: "Our DJimma Antigua is grown on the slopes of the Oromia region in the Jimma. The rich volcanic soil, high altitude, and cool nights create ideal growing conditions. These beans are carefully harvested and processed by farmers who have been growing coffee for generations.",
+    brewing_methods: ["French Press", "Drip", "Pour Over"],
+    story: "Harvested in East Wollega and sun-dried, this coffee showcases the region’s balanced, earthy tones.",
     farm_images: [
-      "https://images.unsplash.com/photo-1477764160862-7a51f3f29cfb?q=80&w=2670",
-      "https://images.unsplash.com/photo-1629227071576-e393f3b6c6b6?q=80&w=2670"
+      "/images/lekempti2.jpg",
+      "/images/lekempti3.webp"
     ]
   },
 ];
@@ -300,7 +294,7 @@ const ProductShowcase = () => {
               Our Coffees
             </h2>
             <p className="text-lg text-coffee/80 max-w-2xl mx-auto">
-              Exceptional single-origin coffees sourced directly from farmers and cooperatives around the world
+              Exceptional single-origin coffees sourced directly from farmers and cooperatives around Ethiopia
             </p>
             <span className="block h-0.5 w-10 bg-caramel mx-auto mt-6"></span>
           </div>

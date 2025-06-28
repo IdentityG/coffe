@@ -19,65 +19,79 @@ const GallerySection = () => {
   const galleryImages = [
     {
       id: 1,
-      src: "/coffe.jpg",
+      src: "/images/coffee1.jpg",
       alt: "Coffee Beans Drying",
       category: "processing",
       aspectRatio: "square", // 1:1
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1715424875963-d6c458eacd27?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fENvZmZlZSUyMEZhcm0lMjBMYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D",
+      src: "/images/limu1.jpg",
       alt: "Coffee Farm Landscape",
       category: "farms",
       aspectRatio: "landscape", // 16:9
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1599578705716-8d3d9246f53b",
+      src: "/images/coffee2.jpg",
       alt: "Coffee Harvesting",
       category: "harvesting",
       aspectRatio: "portrait", // 3:4
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
-      alt: "Coffee Cupping Session",
-      category: "cupping",
+      src: "/images/coffee3.jpg",
+      alt: "Coffee Farm Landscape",
+      category: "farm",
       aspectRatio: "square", // 1:1
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      src: "/images/limu3.webp",
       alt: "Coffee Beans Close-up",
       category: "beans",
       aspectRatio: "portrait", // 3:4
     },
     {
       id: 6,
-      src: "https://images.unsplash.com/photo-1494412651409-8963ce7935a7",
-      alt: "Export Preparation",
-      category: "export prep",
+      src: "/images/coffee4.jpg",
+      alt: "Coffee Farm Landscape",
+      category: "farm",
       aspectRatio: "landscape", // 16:9
     },
     {
       id: 7,
-      src: "https://images.unsplash.com/photo-1612668196612-70262cad2ad7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fENvZmZlZSUyMFBsYW50YXRpb258ZW58MHx8MHx8fDA%3D",
+      src: "/images/coffee5.jpg",
       alt: "Coffee Plantation",
       category: "farms",
       aspectRatio: "landscape", // 16:9
     },
     {
       id: 8,
-      src: "https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a",
+      src: "/images/coffee6.jpg",
       alt: "Drying Beds",
       category: "drying beds",
       aspectRatio: "square", // 1:1
     },
     {
       id: 9,
-      src: "https://images.unsplash.com/photo-1610889556528-9a770e32642f",
-      alt: "Coffee Tasting",
-      category: "cupping",
+      src: "/images/gujii3.webp",
+      alt: "Coffee Beans Close-up",
+      category: "beans",
+      aspectRatio: "portrait", // 3:4
+    },
+     {
+      id: 10,
+      src: "/images/yirga1.jpg",
+      alt: "Drying Beds",
+      category: "drying beds",
+      aspectRatio: "portrait", // 3:4
+    },
+     {
+      id: 11,
+      src: "/images/lekempti3.webp",
+      alt: "Coffee Beans Close-up",
+      category: "beans",
       aspectRatio: "portrait", // 3:4
     },
   ];

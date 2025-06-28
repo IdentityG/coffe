@@ -108,15 +108,14 @@ const AboutHero = () => {
             variants={itemVariants} 
             className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 text-cream leading-tight"
           >
-            Our Story Begins in the Soil
+            Our Journey Begins in Ethiopia’s Highlands
           </motion.h1>
           
           <motion.p 
             variants={itemVariants} 
             className="text-lg md:text-xl text-cream-light mb-10 max-w-3xl mx-auto"
           >
-            For three generations, we've cultivated relationships with Ethiopia's finest coffee growers, 
-            bringing exceptional beans from our family farms to discerning roasters worldwide.
+            Driven by a family legacy and a passion for quality, Mekiya Coffee entered the specialty coffee export world in 2024, partnering with farmers across Ethiopia to share our country’s finest beans with the world.
           </motion.p>
           
           <motion.div 

@@ -17,7 +17,6 @@ const page = () => {
       <TeamSection />
       <ProcessSection />
       <ImpactSection />
-      <CertificationsSection />
       <WhyWorkWithUs />
     </div>
   )

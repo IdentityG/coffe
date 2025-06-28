@@ -230,7 +230,7 @@ const Footer = () => {
                 <div>
                   <h4 className="text-caramel font-medium mb-1">Email</h4>
                   <a href="mailto:info@ubuntucoffee.com" className="text-cream/80 hover:text-caramel transition-colors">
-                    info@ubuntucoffee.com
+                    sabrina@mekiyaenterprise.com
                   </a>
                 </div>
               </div>
@@ -244,7 +244,21 @@ const Footer = () => {
                 <div>
                   <h4 className="text-caramel font-medium mb-1">Phone</h4>
                   <a href="tel:+251112345678" className="text-cream/80 hover:text-caramel transition-colors">
-                    +251 11 234 5678
+                    +251-911-27-46-56 (Ethiopia)
+                  </a>
+                </div>
+              </div>
+
+               <div className="flex items-start gap-3">
+                <div className="w-8 h-8 rounded-full bg-caramel/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-caramel" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-caramel font-medium mb-1">Phone</h4>
+                  <a href="tel:+251112345678" className="text-cream/80 hover:text-caramel transition-colors">
+                    +1-480-410-9898 (U.S.A)
                   </a>
                 </div>
               </div>
@@ -258,8 +272,8 @@ const Footer = () => {
                 <div>
                   <h4 className="text-caramel font-medium mb-1">Address</h4>
                   <p className="text-cream/80">
-                    Bole Road, Addis Ababa<br />
-                    Ethiopia
+                    Bole Rwanda Woreda 02, 823,<br />
+                   Addis Ababa, Ethiopia
                   </p>
                 </div>
               </div>

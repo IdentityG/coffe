@@ -48,38 +48,38 @@ const ImpactSection = () => {
     {
       icon: "🌾",
       metric: "300+",
-      label: "Smallholder Farmers Supported",
-      description: "Direct partnerships with family-owned farms across Ethiopia's coffee regions."
+      label: "Farming Families Engaged",
+      description: "We work directly with smallholder producers across Ethiopia’s highlands to ensure traceability and fair value."
     },
     {
       icon: "📚",
-      metric: "12",
-      label: "Schools Funded",
-      description: "Educational initiatives providing opportunities for farming communities."
+      metric: "12+",
+      label: "Community Education & Training",
+      description: "Through partnerships, we support farmer training and literacy programs that promote long-term economic resilience."
     },
     {
       icon: "💧",
       metric: "45%",
-      label: "Water Conservation",
-      description: "Reduction in water usage through innovative processing methods."
+      label: "Water-Conscious Processing",
+      description: "We invest in water-saving infrastructure to reduce waste during washed and honey processing."
     },
     {
       icon: "🌍",
       metric: "100%",
-      label: "Carbon Neutral Shipping",
-      description: "Offsetting our carbon footprint through reforestation projects."
+      label: "Committed to Ethical Trade",
+      description: "Our export practices prioritize transparency, long-term relationships, and shared success with producers and partners alike."
     },
     {
       icon: "👩‍🌾",
       metric: "52%",
-      label: "Women-Led Initiatives",
-      description: "Supporting gender equality across our supply chain."
+      label: "Empowering Women in Coffee",
+      description: "We support women-led roles in farming, processing, and cooperative leadership — creating more inclusive coffee value chains."
     },
     {
       icon: "🌱",
       metric: "25,000",
-      label: "Trees Planted",
-      description: "Annual reforestation efforts to combat climate change."
+      label: "Growing Trees, Growing Futures",
+      description: "Our reforestation and shade-tree programs contribute to better yields, soil health, and carbon capture."
     },
   ];
 
@@ -202,11 +202,10 @@ const ImpactSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-caramel mb-4">
-            Our Impact Goes Beyond the Bean
+            Our Impact Begins at the Source
           </h2>
           <p className="max-w-3xl mx-auto text-lg text-cream-light">
-            We work hand-in-hand with local communities to foster long-term sustainability, 
-            economic empowerment, and environmental stewardship.
+            Mekiya Coffee is more than an exporter — we’re a partner in agricultural resilience, rural prosperity, and sustainable growth. Together with our farmers, we cultivate more than coffee.
           </p>
         </motion.div>
 

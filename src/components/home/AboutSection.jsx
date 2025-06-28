@@ -78,7 +78,7 @@ const AboutSection = () => {
           >
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl ring-1 ring-coffee/10">
               <img
-                src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?q=80&w=2070"
+                src="/images/coffee7.jpg"
                 alt="Freshly roasted coffee beans with steam rising"
                 className="w-full h-full object-cover"
               />
@@ -105,14 +105,14 @@ const AboutSection = () => {
                 variants={itemVariants}
                 className="text-4xl md:text-5xl font-bold text-coffee-dark mb-4"
               >
-                Rooted in Purpose
+                Rooted in Heritage, Growing for the Future
               </motion.h2>
 
               <motion.h3
                 variants={itemVariants}
                 className="text-xl md:text-2xl font-medium text-caramel mb-6"
               >
-                Ubuntu Coffee Export – Sourcing ethically, exporting globally
+               Mekiya Coffee – Ethiopia’s Finest, Delivered Worldwide
               </motion.h3>
             </div>
 
@@ -120,7 +120,9 @@ const AboutSection = () => {
               variants={itemVariants}
               className="text-coffee/90 mb-8 leading-relaxed"
             >
-              Since our inception, we've been dedicated to bridging the gap between exceptional coffee growers and discerning roasters worldwide. Our journey began with a simple belief: that great coffee can create positive change in farming communities while delivering outstanding quality to consumers.
+              With over 40 years of entrepreneurial legacy and a bold step into the specialty coffee export market in 2024, Mekiya Coffee bridges tradition and innovation. We partner directly with local farmers across Ethiopia to source highland-grown, traceable, and ethically cultivated coffee.
+
+As a proudly family-led division of Mekiya Enterprise, we are committed to delivering excellence, empowering rural communities, and promoting the unique flavor profiles of Ethiopia to the global stage.
             </motion.p>
 
             <motion.ul
@@ -128,9 +130,10 @@ const AboutSection = () => {
               className="space-y-4 text-coffee/80"
             >
               {[
-                'Family-owned since 1995',
-                'Partnerships with over 300 farmers',
-                'Certified organic and fair trade',
+                'Family-owned and quality-driven since 1984 EC',
+                'Strong partnerships with regional farmers across Ethiopia',
+                'Committed to traceability, sustainability & long-term relationships',
+                'Exporting to Europe and the Middle East'
               ].map((item, index) => (
                 <motion.li
                   key={index}

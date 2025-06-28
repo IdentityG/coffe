@@ -107,46 +107,25 @@ const SustainabilityPillars = () => {
   const pillars = [
     {
       id: 1,
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-          <circle cx="12" cy="10" r="3"></circle>
-        </svg>
-      ),
+      icon: "🌍",
       title: "Ethical Sourcing",
-      description: "We pay fair prices to farmers and invest in their communities, ensuring sustainable livelihoods and long-term partnerships."
+      description: "We work directly with smallholder farmers, offering fair pricing and long-term partnerships that create stable livelihoods and shared value across generations."
     },
     {
       id: 2,
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-        </svg>
-      ),
+      icon: "🌿",
       title: "Environmental Stewardship",
       description: "Our shade-grown coffee preserves biodiversity, protects soil health, and minimizes water usage through responsible farming practices."
     },
     {
       id: 3,
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-          <circle cx="9" cy="7" r="4"></circle>
-          <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-        </svg>
-      ),
+      icon: "🤝",
       title: "Community Development",
       description: "We support education, healthcare, and infrastructure in coffee-growing regions, empowering communities to thrive beyond coffee production."
     },
     {
       id: 4,
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-          <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-        </svg>
-      ),
+      icon: "🔎",
       title: "Transparent Supply Chain",
       description: "From farm to cup, we maintain full traceability and accountability, sharing the journey of our coffee with customers and stakeholders."
     }
@@ -184,7 +163,7 @@ const SustainabilityPillars = () => {
             variants={textVariants}
             className="text-lg text-coffee-light max-w-3xl mx-auto"
           >
-            We believe in a model that's ethical, regenerative, and rooted in transparency.
+            We’re cultivating a coffee future that’s ethical, regenerative, and rooted in trust — where every step supports both the land and the people behind each bean.
           </motion.p>
         </motion.div>
 

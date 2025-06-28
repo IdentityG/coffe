@@ -41,12 +41,12 @@ const OriginSection = () => {
 
   // Timeline data
   const timelineEvents = [
-    { year: '1995', title: 'Founded', description: 'Started as a small family farm in the highlands of Ethiopia' },
-    { year: '2000', title: 'First Export', description: 'Shipped our first container of specialty coffee to Europe' },
-    { year: '2023', title: 'Global Presence', description: 'Now exporting to 27 countries across 5 continents' },
+    { year: '1984 EC', title: 'Legacy Begins', description: 'Mekiya Enterprise is founded, rooted in Ethiopian agriculture and community investment' },
+    { year: '2024', title: 'Specialty Coffee Launched', description: 'Mekiya Coffee officially enters the global market with shipments to Europe and the Middle East' },
+    { year: 'Vision', title: 'Growing Globally', description: 'Expanding into new markets while strengthening partnerships with Ethiopian farming communities' },
   ];
 
-  // GSAP ScrollTrigger animations
+  // GSAP ScrollT202rigger animations
   useEffect(() => {
     if (imageRef.current && timelineRef.current) {
       // Image entrance animation
@@ -97,7 +97,7 @@ const OriginSection = () => {
             className="relative h-[400px] md:h-[500px] rounded-xl shadow-lg overflow-hidden order-2 lg:order-1"
           >
             <Image
-              src="https://plus.unsplash.com/premium_photo-1675435644687-562e8042b9db?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y29mZmVlfGVufDB8fDB8fHww" 
+              src="/images/limu1.jpg" 
               alt="Ethiopian coffee farm showing our humble beginnings"
               fill
               className="object-cover"
@@ -117,16 +117,14 @@ const OriginSection = () => {
                 variants={itemVariants} 
                 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-coffee-dark"
               >
-                Humble Roots, Global Vision
+                Humble Beginnings, Global Purpose
               </motion.h2>
               
               <motion.p 
                 variants={itemVariants} 
                 className="text-lg text-coffee leading-relaxed"
               >
-                Mekiya Coffee Export was born from the soil of a small family farm in Ethiopia. 
-                What started as a humble operation driven by quality and care has evolved into a 
-                global export partner, delivering ethically sourced beans to roasters around the world.
+               Born from the entrepreneurial legacy of Mekiya Enterprise, our coffee journey began with a commitment to quality, sustainability, and empowering Ethiopian farmers. In 2024, we officially entered the specialty coffee export market—connecting highland growers to discerning roasters around the world.
               </motion.p>
               
               <motion.p 

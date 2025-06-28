@@ -14,21 +14,21 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      image: 'https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      headline: 'Our Delicious Offer',
-      subtext: 'Premium coffee beans sourced from the finest plantations around the world',
+      image: '/images/coffee3.jpg',
+      headline: 'From Ethiopian Soil to Global Cups',
+      subtext: 'Delivering traceable, premium coffee sourced directly from our highland farms.',
     },
     {
       id: 2,
-      image: 'https://images.unsplash.com/photo-1507133750040-4a8f57021571?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
-      headline: 'The Coffee Herald',
-      subtext: 'Discover the art and science behind every perfect cup',
+      image: '/images/coffee4.jpg',
+      headline: 'Rooted in Legacy, Grown with Care',
+      subtext: 'Family-led and quality-driven, Mekiya Coffee stands for heritage and sustainability.',
     },
     {
       id: 3,
-      image: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      headline: 'Online Coffee Shop',
-      subtext: 'Bringing the finest coffee varieties directly to your doorstep',
+      image: '/images/coffee5.jpg',
+      headline: 'Experience the True Taste of Ethiopia',
+      subtext: 'Explore our curated selection of origin-specific coffee varieties grown in harmony with nature.',
     },
   ];
 
@@ -116,7 +116,7 @@ const Hero = () => {
     slideInterval.current = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
       setDirection(1);
-    }, 8000); // 8 seconds per slide
+    }, 5000); // 5 seconds per slide
 
     // Clear the interval on component unmount
     return () => {
@@ -215,7 +215,7 @@ const Hero = () => {
                 className="group relative inline-flex items-center justify-center px-8 py-3 bg-caramel text-coffee-black font-medium uppercase tracking-widest text-sm overflow-hidden transition-all duration-300 hover:bg-caramel-dark border-2 border-cream-light hover:border-caramel-dark hover:shadow-lg hover:shadow-caramel/20"
               >
                 <span className="relative z-10 flex items-center justify-center group-hover:text-cream-light transition-colors duration-300">
-                  <span>Discover More</span>
+                  <span>View Our Coffee</span>
                   <svg 
                     className="ml-2 w-4 h-4 transform transition-transform duration-300 group-hover:translate-x-1" 
                     fill="none" 

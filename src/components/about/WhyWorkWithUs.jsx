@@ -19,33 +19,33 @@ const WhyWorkWithUs = () => {
   const benefits = [
     {
       icon: "🌱",
-      title: "Traceable Sourcing",
-      description: "Every bean we export can be traced back to its origin farm and farmer."
+      title: "Traceable from Farm to Freight",
+      description: "Our beans are sourced through direct relationships with Ethiopian farmers, with full visibility from origin to export."
     },
     {
       icon: "🤝",
-      title: "Long-term Partnerships",
-      description: "We build lasting relationships with both farmers and buyers for sustainable growth."
+      title: "Built on Long-Term Relationships",
+      description: "We prioritize mutual trust — working closely with both producers and roasters to ensure consistency, growth, and shared goals."
     },
     {
       icon: "🌍",
-      title: "Global Logistics Expertise",
-      description: "Our team navigates complex international shipping and customs with ease."
+      title: "Global Export Readiness",
+      description: "With Mekiya Enterprise’s backing, our logistics operations are optimized for smooth international delivery and customs compliance."
     },
     {
       icon: "⚖️",
-      title: "Fair & Transparent Pricing",
-      description: "Competitive rates with clear breakdown of costs and no hidden fees."
+      title: "Transparent, Ethical Pricing",
+      description: "We offer clear, fair pricing structures that support both farmer livelihoods and client confidence."
     },
     {
-      icon: "🏆",
-      title: "Award-Winning Quality",
+      icon: "🌐",
+      title: "Origin Expertise & Regional Selection",
       description: "Our coffees consistently score 85+ points on specialty coffee scales."
     },
     {
-      icon: "📊",
-      title: "Market Insights",
-      description: "Stay ahead with our regular reports on coffee market trends and forecasts."
+      icon: "📈",
+      title: "Growing Together",
+      description: "Our focus is on partnerships — not just transactions. As you grow, we grow with you."
     },
   ];
 
@@ -197,7 +197,7 @@ const WhyWorkWithUs = () => {
             Why Work With Mekiya Coffee Export?
           </h2>
           <p className="max-w-3xl mx-auto text-lg text-cream-light">
-            We're not just suppliers — we're partners in your success.
+           We're more than suppliers — we're collaborators in quality, sustainability, and long-term value creation.
           </p>
         </motion.div>
 

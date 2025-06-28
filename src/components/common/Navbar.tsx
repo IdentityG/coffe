@@ -23,8 +23,8 @@ const Navbar = () => {
   }, [isOpen]);
   
   const navLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
+    { name: 'Our Story', path: '/' },
+    { name: 'Selection of coffee', path: '/about' },
     { name: 'Products', path: '/products' },
     { name: 'Sustainability', path: '/sustainability' },
     { name: 'Contact', path: '/contact' },

@@ -222,7 +222,7 @@ const Testimonials = () => {
           <div className="inline-block">
             <span className="block h-0.5 w-10 bg-caramel mx-auto mb-6"></span>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-cream mb-4">
-              Testimonials & Partners
+              Testimonials
             </h2>
             <p className="text-lg text-cream/80 max-w-2xl mx-auto">
               Trusted by specialty roasters and distributors worldwide
@@ -320,7 +320,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        {/* Partner Brands */}
+        {/* Partner Brands 
         <div ref={brandsRef} className="mt-20">
           <h3 className="text-2xl md:text-3xl font-serif text-center mb-10 text-cream">
             Our Trusted Partners
@@ -341,6 +341,7 @@ const Testimonials = () => {
             ))}
           </div>
         </div>
+        */}
       </div>
     </section>
   );

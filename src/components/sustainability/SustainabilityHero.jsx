@@ -110,7 +110,7 @@ const SustainabilityHero = () => {
             variants={textVariants}
             className="text-lg md:text-xl text-cream-light max-w-2xl mx-auto mb-12"
           >
-            Our journey to a more sustainable coffee supply chain
+           Our commitment to sustainability goes beyond the bean — from empowering farming communities to protecting Ethiopia’s ecosystems, we’re building a coffee supply chain that nurtures people and the planet.
           </motion.p>
           
           {/* CTA Button */}

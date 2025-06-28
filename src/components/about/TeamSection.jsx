@@ -5,6 +5,8 @@ import { motion, useInView } from 'framer-motion';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
+import { Phone } from 'lucide-react';
+
 
 // Register ScrollTrigger with GSAP
 gsap.registerPlugin(ScrollTrigger);
@@ -17,47 +19,38 @@ const TeamSection = () => {
   // Team member data
   const team = [
     {
-      name: "Alemu Tadesse",
-      title: "Founder & CEO",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
-      quote: "Our journey began on a single hillside farm.",
-      linkedin: "https://linkedin.com"
+    name: "Mr. Hamdi Kamil",
+    title: "General Manager",
+    image: "/images/profile.png", // Replace with actual photo when available
+    quote: "Bridging Ethiopia’s coffee heritage with a global future.",
+    phone: {
+      et: "+251-911-24-57-24",
+      us: "+1-619-796-6467"
     },
-    {
-      name: "Grace Njoroge",
-      title: "Head of Sustainability",
-      image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=800&q=80",
-      quote: "Every bean tells a story of care and fairness.",
-      linkedin: "https://linkedin.com"
+    email: "Hamdikamil@icloud.com"
+  },
+  {
+    name: "Ms. Sabrina Kamil",
+    title: "Operations Manager",
+    image: "/images/profile.png", // Replace with actual photo when available
+    quote: "Focused on precision, quality, and sustainable growth.",
+    phone: {
+      et: "+251-911-27-46-56",
+      us: "+1-480-410-9898"
     },
-    {
-      name: "Carlos Mendoza",
-      title: "Logistics Lead",
-      image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80",
-      quote: "We connect farms to roasters around the world.",
-      linkedin: "https://linkedin.com"
+    email: "sabrina@mekiyaenterprise.com"
+  },
+  {
+    name: "Mr. Derere Negassa",
+    title: "Export Manager",
+    image: "/images/profile.png", // Replace with actual photo when available
+    quote: "Every shipment reflects our promise of excellence.",
+    phone: {
+      et: "+251-936-010-017",
+      us: "+251-936-010-017"
     },
-    {
-      name: "Makeda Abebe",
-      title: "Quality Control Manager",
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80",
-      quote: "Excellence in every cup begins with our selection.",
-      linkedin: "https://linkedin.com"
-    },
-    {
-      name: "David Chen",
-      title: "International Sales Director",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
-      quote: "Building relationships as rich as our coffee.",
-      linkedin: "https://linkedin.com"
-    },
-    {
-      name: "Sophia Kimani",
-      title: "Head of Farmer Relations",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-      quote: "Supporting our growers is at the heart of what we do.",
-      linkedin: "https://linkedin.com"
-    },
+    email: ""
+  }
   ];
 
   // Animation variants for Framer Motion
@@ -179,24 +172,28 @@ const TeamSection = () => {
                 {member.quote && (
                   <p className="text-coffee italic mb-4">"{member.quote}"</p>
                 )}
-                {member.linkedin && (
-                  <a 
-                    href={member.linkedin} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-caramel hover:text-caramel-dark transition-colors"
-                  >
-                    <svg 
-                      xmlns="http://www.w3.org/2000/svg" 
-                      className="h-5 w-5 mr-2" 
-                      fill="currentColor" 
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                    </svg>
-                    <span>Connect</span>
-                  </a>
-                )}
+                {member.phone && (
+  <div className="flex flex-col gap-2 mt-2 text-caramel-dark text-sm">
+    {member.phone.et && (
+      <a
+        href={`tel:${member.phone.et}`}
+        className="inline-flex items-center hover:text-caramel transition-colors"
+      >
+        <Phone className="w-4 h-4 mr-2" />
+        {member.phone.et}
+      </a>
+    )}
+    {member.phone.us && (
+      <a
+        href={`tel:${member.phone.us}`}
+        className="inline-flex items-center hover:text-caramel transition-colors"
+      >
+        <Phone className="w-4 h-4 mr-2" />
+        {member.phone.us}
+      </a>
+    )}
+  </div>
+)}
               </div>
             </motion.div>
           ))}

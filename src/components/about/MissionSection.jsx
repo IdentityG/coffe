@@ -46,7 +46,7 @@ const MissionSection = () => {
         </svg>
       ),
       title: "Our Mission",
-      description: "To connect exceptional Ethiopian coffee with discerning roasters worldwide while ensuring sustainable livelihoods for our farming communities."
+      description: "To connect exceptional, traceable Ethiopian coffees with roasters worldwide — while building sustainable livelihoods and lasting relationships with the communities who grow them."
     },
     {
       icon: (
@@ -56,7 +56,7 @@ const MissionSection = () => {
         </svg>
       ),
       title: "Our Vision",
-      description: "To be the global standard-bearer for ethical coffee exports, where quality, sustainability, and community prosperity flow together in every bean."
+      description: "To set a global benchmark for ethical coffee exports — where excellence, transparency, and community empowerment are at the heart of every harvest."
     },
     {
       icon: (
@@ -65,7 +65,7 @@ const MissionSection = () => {
         </svg>
       ),
       title: "Our Values",
-      description: "Quality without compromise. Transparency in every transaction. Environmental stewardship. Community empowerment. Long-term partnerships built on trust."
+      description: "Quality without compromise. Transparency in every step. Environmental responsibility. Community-driven impact. Partnerships built on trust and longevity."
     }
   ];
 
@@ -137,7 +137,7 @@ const MissionSection = () => {
             variants={itemVariants} 
             className="max-w-2xl mx-auto text-lg text-cream-light"
           >
-            Our purpose is rooted in the rich soil of Ethiopia and extends to coffee lovers worldwide.
+           Our purpose is rooted in Ethiopia’s highlands and extends to coffee lovers around the globe. Every bean we export reflects our belief that great coffee should create shared value — for farmers, for partners, and for the planet.
           </motion.p>
         </motion.div>
 
