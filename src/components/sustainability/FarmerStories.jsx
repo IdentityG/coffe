@@ -109,44 +109,44 @@ const FarmerStories = () => {
   };
 
   // Farmer stories data
-  const stories = [
-    {
-      id: 1,
-      name: "Abeba Desta",
-      region: "Sidamo, Ethiopia",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
-      quote: "With fair trade premiums, we built a new school for our children. Now my daughter dreams of becoming an agricultural engineer.",
-      impact: "📚",
-      impactType: "Education"
-    },
-    {
-      id: 2,
-      name: "Carlos Mendoza",
-      region: "Huehuetenango, Guatemala",
-      image: "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-      quote: "The water conservation project changed everything. Our yields have improved, and we no longer worry about drought affecting our livelihood.",
-      impact: "💧",
-      impactType: "Water Conservation"
-    },
-    {
-      id: 3,
-      name: "Maria Gonzalez",
-      region: "Antigua, Guatemala",
-      image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=800&q=80",
-      quote: "The reforestation initiative has restored our land's health. We're growing better coffee while protecting the forest that sustains us.",
-      impact: "🌱",
-      impactType: "Reforestation"
-    },
-    {
-      id: 4,
-      name: "Emmanuel Kofi",
-      region: "Ashanti Region, Ghana",
-      image: "https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80",
-      quote: "The organic farming training transformed our practices. Now we earn premium prices while preserving our soil for future generations.",
-      impact: "🌱",
-      impactType: "Sustainable Farming"
-    }
-  ];
+ const stories = [
+  {
+    id: 1,
+    name: "Abeba Desta",
+    region: "Sidamo, Ethiopia",
+    image: "/images/profile.png",
+    quote: "With support from Mekiya Coffee, our village school has expanded. Now my daughter dreams of becoming an agricultural engineer.",
+    impact: "📚",
+    impactType: "Education"
+  },
+  {
+    id: 2,
+    name: "Tesfaye Buli",
+    region: "Guji, Ethiopia",
+    image: "/images/profile.png",
+    quote: "The new water-saving wet mill helped us reduce waste and improve bean quality. It changed how we process coffee in our community.",
+    impact: "💧",
+    impactType: "Water Conservation"
+  },
+  {
+    id: 3,
+    name: "Meaza Tulu",
+    region: "Yirgacheffe, Ethiopia",
+    image: "/images/profile.png",
+    quote: "Replanting native trees on our farm has brought back birds and healthier soil. We grow better coffee while preserving the forest.",
+    impact: "🌱",
+    impactType: "Reforestation"
+  },
+  {
+    id: 4,
+    name: "Dereje Alemu",
+    region: "Jimma, Ethiopia",
+    image: "/images/profile.png",
+    quote: "After organic farming training, we stopped using chemicals. The land is thriving — and so are our prices and our health.",
+    impact: "🌿",
+    impactType: "Sustainable Farming"
+  }
+];
 
   return (
     <section 

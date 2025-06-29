@@ -4,6 +4,7 @@ import { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { TreeDeciduous, Droplet, Recycle, Bug } from 'lucide-react';
 
 const FarmingPractices = () => {
   const sectionRef = useRef(null);
@@ -113,57 +114,30 @@ const FarmingPractices = () => {
 
   // Sustainable farming practices data
   const practices = [
-    {
-      id: 1,
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-        </svg>
-      ),
-      title: "Shade-Grown Coffee",
-      description: "Our coffee grows under a natural forest canopy, preserving biodiversity and providing habitat for native birds and wildlife."
-    },
-    {
-      id: 2,
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M12 2v6"></path>
-          <path d="M17.66 8.35l-4.24 4.24"></path>
-          <path d="M2 12h6"></path>
-          <path d="M8.35 17.66l4.24-4.24"></path>
-          <path d="M22 12h-6"></path>
-          <path d="M15.65 6.34l-4.24 4.24"></path>
-          <path d="M12 22v-6"></path>
-          <path d="M8.35 6.34l4.24 4.24"></path>
-        </svg>
-      ),
-      title: "Water Conservation",
-      description: "We implement water-saving processing methods and rainwater harvesting systems to minimize our environmental footprint."
-    },
-    {
-      id: 3,
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-          <circle cx="12" cy="10" r="3"></circle>
-        </svg>
-      ),
-      title: "Organic Fertilization",
-      description: "Coffee pulp and organic matter are composted and returned to the soil, creating a sustainable nutrient cycle without chemical fertilizers."
-    },
-    {
-      id: 4,
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <circle cx="12" cy="12" r="10"></circle>
-          <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
-          <line x1="9" y1="9" x2="9.01" y2="9"></line>
-          <line x1="15" y1="9" x2="15.01" y2="9"></line>
-        </svg>
-      ),
-      title: "Natural Pest Management",
-      description: "We maintain ecological balance through biodiversity rather than pesticides, protecting both the environment and worker health."
-    }
+     {
+    id: 1,
+    icon: <TreeDeciduous className="h-8 w-8 text-green-700" />,
+    title: "Shade-Grown Coffee",
+    description: "Our beans are cultivated beneath native forest canopies, promoting biodiversity and creating safe habitats for birds, pollinators, and wildlife."
+  },
+  {
+    id: 2,
+    icon: <Droplet className="h-8 w-8 text-blue-600" />,
+    title: "Water Conservation",
+    description: "We use water-efficient processing techniques and invest in rainwater harvesting to reduce consumption and protect surrounding ecosystems."
+  },
+  {
+    id: 3,
+    icon: <Recycle className="h-8 w-8 text-amber-600" />,
+    title: "Organic Fertilization",
+    description: "We compost coffee pulp and farm waste to enrich the soil naturally — eliminating the need for synthetic fertilizers and promoting a closed nutrient loop."
+  },
+  {
+    id: 4,
+    icon: <Bug className="h-8 w-8 text-emerald-600" />,
+    title: "Natural Pest Management",
+    description: "Our farms rely on biodiversity and integrated practices to manage pests — protecting farmer health and reducing environmental harm."
+  }
   ];
 
   return (

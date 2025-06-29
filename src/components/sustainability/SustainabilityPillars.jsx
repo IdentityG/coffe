@@ -115,19 +115,19 @@ const SustainabilityPillars = () => {
       id: 2,
       icon: "🌿",
       title: "Environmental Stewardship",
-      description: "Our shade-grown coffee preserves biodiversity, protects soil health, and minimizes water usage through responsible farming practices."
+      description: "Our coffee is shade-grown in biodiverse ecosystems. Through reforestation, reduced water usage, and organic methods, we prioritize climate resilience and soil health."
     },
     {
       id: 3,
       icon: "🤝",
-      title: "Community Development",
-      description: "We support education, healthcare, and infrastructure in coffee-growing regions, empowering communities to thrive beyond coffee production."
+      title: "Community Investment",
+      description: "From education to infrastructure, we reinvest in the communities that grow with us — supporting programs that empower farmers, families, and future generations."
     },
     {
       id: 4,
       icon: "🔎",
-      title: "Transparent Supply Chain",
-      description: "From farm to cup, we maintain full traceability and accountability, sharing the journey of our coffee with customers and stakeholders."
+      title: "Traceable from Origin to Export",
+      description: "Transparency is built into our process. Every lot we export is traceable from farm to freight — ensuring quality, accountability, and connection at every step."
     }
   ];
 

@@ -103,62 +103,56 @@ const ImpactMetrics = () => {
   };
 
   // Sustainability metrics data
-  const metrics = [
-    {
-      id: 1,
-      icon: "🌱",
-      value: 5000,
-      prefix: "",
-      suffix: "+",
-      label: "Farmers Supported",
-      description: "Direct partnerships with smallholder farmers"
-    },
-    {
-      id: 2,
-      icon: "💧",
-      value: 40,
-      prefix: "",
-      suffix: "%",
-      label: "Water Reduction",
-      description: "Less water used in processing since 2018"
-    },
-    {
-      id: 3,
-      icon: "🌍",
-      value: 12000,
-      prefix: "",
-      suffix: "",
-      label: "Trees Planted",
-      description: "Reforestation efforts in coffee regions"
-    },
-    {
-      id: 4,
-      icon: "🤝",
-      value: 24,
-      prefix: "",
-      suffix: "",
-      label: "Communities Impacted",
-      description: "Across 8 countries in coffee-growing regions"
-    },
-    {
-      id: 5,
-      icon: "♻️",
-      value: 85,
-      prefix: "",
-      suffix: "%",
-      label: "Waste Recycled",
-      description: "Coffee byproducts converted to organic fertilizer"
-    },
-    {
-      id: 6,
-      icon: "💰",
-      value: 30,
-      prefix: "+",
-      suffix: "%",
-      label: "Premium Paid",
-      description: "Above market rates for sustainable practices"
-    }
-  ];
+ const metrics = [
+  {
+    id: 1,
+    icon: "🌱",
+    value: 300,
+    suffix: "+",
+    label: "Farming Families Engaged",
+    description: "Direct sourcing partnerships in Ethiopian highlands"
+  },
+  {
+    id: 2,
+    icon: "💧",
+    value: 20,
+    suffix: "%",
+    label: "Water Savings Achieved",
+    description: "Through eco-washing and conservation systems"
+  },
+  {
+    id: 3,
+    icon: "🌳",
+    value: 6000,
+    suffix: "+",
+    label: "Shade & Native Trees Planted",
+    description: "Agroforestry programs restoring biodiversity"
+  },
+  {
+    id: 4,
+    icon: "👩‍🌾",
+    value: 48,
+    suffix: "%",
+    label: "Women-Led Initiatives",
+    description: "Participation in farming, training, and cooperatives"
+  },
+  {
+    id: 5,
+    icon: "♻️",
+    value: 90,
+    suffix: "%",
+    label: "Processing Waste Reused",
+    description: "Converted into compost and fuel briquettes"
+  },
+  {
+    id: 6,
+    icon: "📦",
+    value: 5,
+    suffix: "+",
+    label: "Countries Reached",
+    description: "Early export markets across 3 continents"
+  }
+];
 
   return (
     <section 

@@ -147,33 +147,33 @@ const SustainabilityTimeline = () => {
   const milestones = [
     {
       id: 1,
-      year: "2010",
-      title: "First Organic Certification",
-      description: "Achieved our first organic certification, marking the beginning of our sustainability journey."
+      year: "1984 EC",
+      title: "Legacy Begins",
+      description: "Mekiya Enterprise is founded — rooted in agriculture and a mission to build community prosperity through ethical business."
     },
     {
       id: 2,
-      year: "2013",
-      title: "Fair Trade Partnership",
-      description: "Established direct trade relationships with farmers, ensuring fair compensation and sustainable practices."
+      year: "2022",
+      title: "Investing in Sustainable Infrastructure",
+      description: "Solar drying beds and eco-friendly storage are introduced across partner farms to reduce emissions and energy usage."
     },
     {
       id: 3,
-      year: "2016",
-      title: "Carbon Footprint Reduction",
-      description: "Implemented solar energy at processing facilities, reducing our carbon footprint by 30%."
+      year: " 2023",
+      title: "Traceability Standards Developed",
+      description: "Farm-to-export data protocols are implemented to ensure transparency and quality tracking for every lot we handle."
     },
     {
       id: 4,
-      year: "2019",
-      title: "Rainforest Alliance Certification",
-      description: "All our coffee farms achieved Rainforest Alliance certification for biodiversity protection."
+      year: " 2024",
+      title: "Mekiya Coffee Officially Launched",
+      description: "We enter the specialty coffee export market — sourcing traceable, highland-grown coffees from across Ethiopia with a focus on ethical trade."
     },
     {
       id: 5,
-      year: "2022",
-      title: "Zero-Waste Processing",
-      description: "Achieved zero-waste processing by converting coffee pulp into organic fertilizer and biofuel."
+      year: " 2025 (Ongoing)",
+      title: "Sustainability Expansion in Motion",
+      description: "Pilot programs begin for compost-based fertilization, water reduction at wet mills, and reforestation partnerships in coffee-growing communities."
     }
   ];
 
@@ -210,7 +210,7 @@ const SustainabilityTimeline = () => {
             variants={textVariants}
             className="text-lg text-coffee-light max-w-3xl mx-auto"
           >
-            Every year, we've taken steps to protect our planet, empower our partners, and elevate coffee's future.
+            Sustainability is not a feature — it’s our foundation. Though Mekiya Coffee officially entered the specialty market in 2024, our values have been growing for decades through responsible farming, ethical trade, and environmental care.
           </motion.p>
         </motion.div>
 
