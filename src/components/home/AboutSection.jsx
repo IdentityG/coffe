@@ -72,8 +72,8 @@ const AboutSection = () => {
           <motion.div
             ref={imageRef}
             className="w-full md:w-1/2"
-            initial={{ opacity: 0, x: -50 }}
-            animate={isInView ? { opacity: 1, x: -50 } : { opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: 0 }}
+            animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 0 }}
             transition={{ duration: 1, ease: 'easeOut' }}
           >
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl ring-1 ring-coffee/10">
