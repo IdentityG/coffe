@@ -82,7 +82,7 @@ const AboutHero = () => {
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <div ref={imageRef} className="w-full h-full scale-105">
           <Image
-            src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1950&q=80"
+            src="/images/coffee3.jpg"
             alt="Ethiopian coffee farm landscape"
             fill
             priority

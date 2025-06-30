@@ -184,7 +184,7 @@ const WhyWorkWithUs = () => {
   return (
     <section 
       ref={sectionRef} 
-      className="py-20 md:py-28 bg-coffee text-cream overflow-hidden"
+      className="py-20 md:py-28 bg-cream-light text-cream overflow-hidden"
     >
       <div className="container mx-auto px-4 md:px-8">
         <motion.div
@@ -193,10 +193,10 @@ const WhyWorkWithUs = () => {
           variants={titleVariants}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-serif font-bold text-caramel mb-4">
+          <h2 className="text-3xl md:text-5xl font-serif font-bold text-coffee-dark mb-4">
             Why Work With Mekiya Coffee Export?
           </h2>
-          <p className="max-w-3xl mx-auto text-lg text-cream-light">
+          <p className="max-w-3xl mx-auto text-lg text-coffee/80">
            We're more than suppliers — we're collaborators in quality, sustainability, and long-term value creation.
           </p>
         </motion.div>
@@ -213,7 +213,7 @@ const WhyWorkWithUs = () => {
               ref={el => cardsRef.current[index] = el}
               variants={cardVariants}
               whileHover="hover"
-              className="bg-coffee-light rounded-xl shadow-md p-6 transform transition-all duration-300"
+              className="bg-coffee-dark rounded-xl shadow-md p-6 transform transition-all duration-300"
             >
               <motion.div 
                 className="text-4xl mb-4 inline-block"

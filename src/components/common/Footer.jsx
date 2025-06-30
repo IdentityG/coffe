@@ -162,11 +162,11 @@ const Footer = () => {
                 />
               </svg>
               <h2 className="text-2xl md:text-3xl font-serif font-bold text-cream">
-                Mekiya Coffee Export
+                Mekiya Coffee
               </h2>
             </div>
             <p className="text-cream/80 max-w-md">
-              Exporting excellence since 1995. We connect exceptional Ethiopian coffee growers with discerning roasters worldwide, fostering sustainable partnerships and delivering premium quality.
+              Exporting excellence since 2024. We connect exceptional Ethiopian coffee growers with discerning roasters worldwide, fostering sustainable partnerships and delivering premium quality.
             </p>
             <div className="pt-4">
               <p className="text-caramel font-medium">Export License: ETH/COF/EXP/2023-1145</p>

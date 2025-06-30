@@ -189,10 +189,10 @@ const ImpactSection = () => {
   return (
     <section 
       ref={sectionRef} 
-      className="py-20 md:py-28 bg-coffee-dark text-cream overflow-hidden bg-[url('/coffee-farm-bg.jpg')] bg-cover bg-center bg-fixed bg-opacity-20 relative"
+      className="py-20 md:py-28 bg-cream-light text-cream overflow-hidden bg-[url('/coffee-farm-bg.jpg')] bg-cover bg-center bg-fixed bg-opacity-20 relative"
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-coffee-black/80"></div>
+      <div className="absolute inset-0 bg-cream-light/80"></div>
       
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <motion.div
@@ -201,10 +201,10 @@ const ImpactSection = () => {
           variants={titleVariants}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-serif font-bold text-caramel mb-4">
+          <h2 className="text-3xl md:text-5xl font-serif font-bold text-coffee-dark mb-4">
             Our Impact Begins at the Source
           </h2>
-          <p className="max-w-3xl mx-auto text-lg text-cream-light">
+          <p className="max-w-3xl mx-auto text-lg text-coffee/80">
             Mekiya Coffee is more than an exporter — we’re a partner in agricultural resilience, rural prosperity, and sustainable growth. Together with our farmers, we cultivate more than coffee.
           </p>
         </motion.div>
@@ -220,7 +220,7 @@ const ImpactSection = () => {
               key={stat.label}
               ref={el => cardsRef.current[index] = el}
               variants={cardVariants}
-              className="bg-coffee rounded-xl shadow-lg p-6 transform transition-all duration-300 hover:shadow-xl hover:scale-105"
+              className="bg-coffee-dark rounded-xl shadow-lg p-6 transform transition-all duration-300 hover:shadow-xl hover:scale-105"
             >
               <motion.div 
                 className="text-4xl mb-4"

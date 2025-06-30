@@ -151,7 +151,7 @@ const FarmerStories = () => {
   return (
     <section 
       ref={sectionRef}
-      className="py-16 md:py-24 bg-cream text-coffee-dark overflow-hidden"
+      className="py-16 md:py-24 bg-cream-light text-coffee-dark overflow-hidden"
       id="farmer-stories"
     >
       <div className="container mx-auto px-4 md:px-8">

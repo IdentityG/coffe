@@ -180,7 +180,7 @@ const SustainabilityTimeline = () => {
   return (
     <section 
       ref={sectionRef}
-      className="py-16 md:py-24 bg-cream text-coffee-dark overflow-hidden"
+      className="py-16 md:py-24 bg-cream-light text-coffee-dark overflow-hidden"
       id="sustainability-timeline"
     >
       <div className="container mx-auto px-4 md:px-8">
@@ -248,12 +248,12 @@ const SustainabilityTimeline = () => {
               
               {/* Content */}
               <div className="content flex-1 pl-8">
-                <div className="bg-cream-light p-5 rounded-lg shadow-md border border-caramel/10 transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                  <h3 className="text-xl font-serif font-bold text-coffee-dark mb-2">
+                <div className="bg-espresso p-5 rounded-lg shadow-md border border-caramel/10 transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                  <h3 className="text-xl font-serif font-bold text-caramel mb-2">
                     {milestone.title}
                   </h3>
                   
-                  <p className="text-coffee-light">
+                  <p className="text-cream-light">
                     {milestone.description}
                   </p>
                 </div>

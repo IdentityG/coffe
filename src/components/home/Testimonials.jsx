@@ -209,22 +209,22 @@ const Testimonials = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 overflow-hidden bg-coffee-dark text-cream"
+      className="relative py-24 overflow-hidden bg-cream-light text-cream"
     >
-      {/* Decorative elements */}
+      {/* Decorative elements 
       <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-coffee to-transparent opacity-30"></div>
       <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-caramel/5 -z-10"></div>
-      <div className="absolute bottom-20 left-10 w-32 h-32 rounded-full bg-cream/5 -z-10"></div>
+      <div className="absolute bottom-20 left-10 w-32 h-32 rounded-full bg-cream/5 -z-10"></div> */}
       
       <div className="container relative z-10 mx-auto px-4">
         {/* Section title */}
         <div ref={titleRef} className="text-center mb-16">
           <div className="inline-block">
             <span className="block h-0.5 w-10 bg-caramel mx-auto mb-6"></span>
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-cream mb-4">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-coffee-dark mb-4">
               Testimonials
             </h2>
-            <p className="text-lg text-cream/80 max-w-2xl mx-auto">
+            <p className="text-lg text-coffee/80 max-w-2xl mx-auto">
               Trusted by specialty roasters and distributors worldwide
             </p>
             <span className="block h-0.5 w-10 bg-caramel mx-auto mt-6"></span>

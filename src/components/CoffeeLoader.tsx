@@ -208,7 +208,7 @@ const CoffeeLoader = ({ onLoadingComplete }: CoffeeLoaderProps) => {
         className="text-4xl md:text-5xl font-bold mb-4 text-caramel font-serif tracking-wider"
         variants={itemVariants}
       >
-        Mekiya Coffee Export
+        Mekiya Coffee
       </motion.h1>
       
       <motion.div 

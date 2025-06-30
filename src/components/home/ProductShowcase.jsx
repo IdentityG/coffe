@@ -280,10 +280,10 @@ const ProductShowcase = () => {
       ref={sectionRef}
       className="relative py-20 bg-cream overflow-hidden"
     >
-      {/* Decorative elements */}
+      {/* Decorative elements 
       <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-cream-light to-transparent opacity-70"></div>
       <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-caramel/5 -z-10"></div>
-      <div className="absolute bottom-20 left-10 w-32 h-32 rounded-full bg-coffee/5 -z-10"></div>
+      <div className="absolute bottom-20 left-10 w-32 h-32 rounded-full bg-coffee/5 -z-10"></div>  */}
       
       <div className="container mx-auto px-4">
         {/* Section title */}

@@ -181,7 +181,7 @@ const SustainabilityPillars = () => {
               whileHover="hover"
               viewport={{ once: true, margin: "-50px" }}
               variants={cardVariants}
-              className="pillar-card bg-cream p-6 md:p-8 rounded-xl shadow-md border border-caramel/20 flex flex-col items-center text-center transition-all duration-300"
+              className="pillar-card bg-espresso p-6 md:p-8 rounded-xl shadow-md border border-caramel/20 flex flex-col items-center text-center transition-all duration-300"
             >
               <motion.div 
                 className="mb-4 text-caramel"
@@ -190,11 +190,11 @@ const SustainabilityPillars = () => {
                 {pillar.icon}
               </motion.div>
               
-              <h3 className="text-xl font-serif font-bold text-coffee-dark mb-3">
+              <h3 className="text-xl font-serif font-bold text-caramel mb-3">
                 {pillar.title}
               </h3>
               
-              <p className="text-coffee-light">
+              <p className="text-cream-light">
                 {pillar.description}
               </p>
             </motion.div>

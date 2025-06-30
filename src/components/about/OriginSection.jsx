@@ -122,7 +122,7 @@ const OriginSection = () => {
               
               <motion.p 
                 variants={itemVariants} 
-                className="text-lg text-coffee leading-relaxed"
+                className="text-lg text-coffee/90 leading-relaxed"
               >
                Born from the entrepreneurial legacy of Mekiya Enterprise, our coffee journey began with a commitment to quality, sustainability, and empowering Ethiopian farmers. In 2024, we officially entered the specialty coffee export market—connecting highland growers to discerning roasters around the world.
               </motion.p>

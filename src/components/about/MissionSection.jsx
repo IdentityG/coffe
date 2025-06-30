@@ -118,7 +118,7 @@ const MissionSection = () => {
   return (
     <section 
       ref={sectionRef} 
-      className="py-20 md:py-28 bg-coffee-black text-cream overflow-hidden"
+      className="py-20 md:py-28 bg-coffee-dark text-cream overflow-hidden"
     >
       <div className="container mx-auto px-4 md:px-8">
         <motion.div

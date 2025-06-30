@@ -176,7 +176,7 @@ const Sustainability = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 overflow-hidden bg-cream"
+      className="relative py-24 overflow-hidden bg-cream-light"
     >
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0 overflow-hidden">
