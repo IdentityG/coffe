@@ -231,7 +231,7 @@ const ContactSection = () => {
               variants={containerVariants}
               initial="hidden"
               animate={isInView ? "visible" : "hidden"}
-              className="bg-coffee p-8 rounded-xl shadow-xl"
+              className="bg-coffee-dark p-8 rounded-xl shadow-xl"
             >
               <motion.h3 
                 variants={itemVariants}
@@ -323,7 +323,7 @@ const ContactSection = () => {
           
           {/* Right Column - Contact Form */}
           <div ref={formRef} className="w-full lg:w-3/5">
-            <div className="bg-coffee p-8 rounded-xl shadow-xl">
+            <div className="bg-coffee-dark p-8 rounded-xl shadow-xl">
               <h3 className="text-2xl font-serif text-caramel mb-6 form-element">
                 Send Us a Message
               </h3>
