@@ -176,33 +176,32 @@ const Sustainability = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 overflow-hidden bg-cream-light"
+      className="relative py-24 overflow-hidden bg-white"
     >
-      {/* Background image with overlay */}
+      {/* Background image with overlay 
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="sustainability-bg absolute inset-0 bg-cover bg-center opacity-10" 
           style={{ backgroundImage: "url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=2578')" }}>
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-cream via-cream/90 to-cream"></div>
-      </div>
+      </div> */}
 
-      {/* Decorative elements */}
-      <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-cream to-transparent opacity-70"></div>
-      <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-caramel/5 -z-10"></div>
-      <div className="absolute bottom-20 left-10 w-32 h-32 rounded-full bg-coffee/5 -z-10"></div>
+      {/* Decorative elements 
+      <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-epresso to-transparent opacity-70"></div>
+      <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-caramel/5 -z-10"></div> */}
       
       <div className="container relative z-10 mx-auto px-4">
         {/* Section title */}
         <div ref={titleRef} className="text-center mb-16">
           <div className="inline-block">
-            <span className="block h-0.5 w-10 bg-caramel mx-auto mb-6"></span>
+            <span className="block h-0.5 w-10 bg-espresso mx-auto mb-6"></span>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-coffee-dark mb-4">
               Sustainability & Ethical Sourcing
             </h2>
-            <p className="text-lg text-coffee/80 max-w-2xl mx-auto">
+            <p className="text-lg text-black max-w-2xl mx-auto">
               Our commitment to environmental stewardship and social responsibility guides every decision we make
             </p>
-            <span className="block h-0.5 w-10 bg-caramel mx-auto mt-6"></span>
+            <span className="block h-0.5 w-10 bg-espresso mx-auto mt-6"></span>
           </div>
         </div>
 
@@ -214,11 +213,11 @@ const Sustainability = () => {
               className={`timeline-item relative flex flex-col md:flex-row items-center md:items-start gap-6 mb-16 last:mb-0 ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}
             >
               {/* Timeline line */}
-              <div className="absolute left-1/2 md:left-auto md:inset-x-1/2 top-16 bottom-0 w-px bg-caramel/30 -z-10 transform -translate-x-1/2"></div>
+              <div className="absolute left-1/2 md:left-auto md:inset-x-1/2 top-16 bottom-0 w-px bg-cream-light -z-10 transform -translate-x-1/2"></div>
               
               {/* Icon */}
               <motion.div 
-                className="relative z-10 w-16 h-16 rounded-full bg-cream-light shadow-md flex items-center justify-center text-caramel border-2 border-caramel/20"
+                className="relative z-10 w-16 h-16 rounded-full bg-cream-light shadow-md flex items-center justify-center text-espresso border-2 border-caramel/20"
                 variants={iconVariants}
                 initial="hidden"
                 animate={isInView ? "visible" : "hidden"}
@@ -231,7 +230,7 @@ const Sustainability = () => {
               {/* Content */}
               <div className={`flex-1 ${index % 2 !== 0 ? 'md:text-right' : ''}`}>
                 <h3 className="text-xl font-bold text-coffee-dark mb-2">{principle.title}</h3>
-                <p className="text-coffee/80">{principle.description}</p>
+                <p className="text-black">{principle.description}</p>
               </div>
             </div>
           ))}

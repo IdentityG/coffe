@@ -202,7 +202,7 @@ const GlobalReach = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 overflow-hidden bg-cream-light"
+      className="relative py-24 overflow-hidden bg-white"
     >
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-cream to-transparent opacity-70"></div>
@@ -213,14 +213,14 @@ const GlobalReach = () => {
         {/* Section title */}
         <div ref={titleRef} className="text-center mb-16">
           <div className="inline-block">
-            <span className="block h-0.5 w-10 bg-caramel mx-auto mb-6"></span>
+            <span className="block h-0.5 w-10 bg-espresso mx-auto mb-6"></span>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-coffee-dark mb-4">
               Global Reach
             </h2>
-            <p className="text-lg text-coffee/80 max-w-2xl mx-auto">
+            <p className="text-lg text-black max-w-2xl mx-auto">
               We proudly export to over 25 countries worldwide
             </p>
-            <span className="block h-0.5 w-10 bg-caramel mx-auto mt-6"></span>
+            <span className="block h-0.5 w-10 bg-espresso mx-auto mt-6"></span>
           </div>
         </div>
 
@@ -312,7 +312,7 @@ const GlobalReach = () => {
               whileHover="hover"
               variants={markerVariants}
             >
-              <div className="w-full h-full rounded-full bg-caramel flex items-center justify-center shadow-md">
+              <div className="w-full h-full rounded-full bg-espresso flex items-center justify-center shadow-md">
                 <div className="w-2 h-2 rounded-full bg-cream-light"></div>
               </div>
               
@@ -334,16 +334,16 @@ const GlobalReach = () => {
         {/* Stats or additional info */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto text-center">
           <div className="bg-cream rounded-lg p-6 shadow-sm">
-            <div className="text-3xl font-bold text-caramel mb-2">25+</div>
-            <div className="text-coffee-dark font-medium">Countries Served</div>
+            <div className="text-3xl font-bold text-espresso mb-2">5+</div>
+            <div className="text-black font-medium">Countries Served</div>
           </div>
           <div className="bg-cream rounded-lg p-6 shadow-sm">
-            <div className="text-3xl font-bold text-caramel mb-2">5</div>
-            <div className="text-coffee-dark font-medium">Continents</div>
+            <div className="text-3xl font-bold text-espresso mb-2">2</div>
+            <div className="text-black font-medium">Continents</div>
           </div>
           <div className="bg-cream rounded-lg p-6 shadow-sm">
-            <div className="text-3xl font-bold text-caramel mb-2">12+</div>
-            <div className="text-coffee-dark font-medium">Years of Export</div>
+            <div className="text-3xl font-bold text-espresso mb-2">1+</div>
+            <div className="text-black font-medium">Years of Export</div>
           </div>
         </div>
       </div>

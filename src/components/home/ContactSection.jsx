@@ -201,7 +201,7 @@ const ContactSection = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 overflow-hidden bg-cream-light text-cream"
+      className="relative py-24 overflow-hidden bg-white text-cream"
       id="contact"
     >
       {/* Decorative elements
@@ -213,14 +213,14 @@ const ContactSection = () => {
         {/* Section title */}
         <div ref={titleRef} className="text-center mb-16">
           <div className="inline-block">
-            <span className="block h-0.5 w-10 bg-caramel mx-auto mb-6"></span>
+            <span className="block h-0.5 w-10 bg-espresso mx-auto mb-6"></span>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-coffee-dark mb-4">
               Let's Work Together
             </h2>
-            <p className="text-lg text-coffee/80 max-w-2xl mx-auto">
+            <p className="text-lg text-black max-w-2xl mx-auto">
               Interested in our premium coffee exports? Reach out to us for inquiries, samples, or partnership opportunities.
             </p>
-            <span className="block h-0.5 w-10 bg-caramel mx-auto mt-6"></span>
+            <span className="block h-0.5 w-10 bg-espresso mx-auto mt-6"></span>
           </div>
         </div>
 

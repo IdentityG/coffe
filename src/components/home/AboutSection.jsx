@@ -59,7 +59,7 @@ const AboutSection = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative py-20 md:py-32 bg-gradient-to-b from-cream-light to-latte overflow-hidden"
+      className="relative py-20 md:py-32 bg-white overflow-hidden"
     >
       {/* Decorative coffee bean shapes */}
       <div className="absolute top-12 left-8 w-24 h-24 rounded-full bg-caramel/5 -z-10"></div>
@@ -110,7 +110,7 @@ const AboutSection = () => {
 
               <motion.h3
                 variants={itemVariants}
-                className="text-xl md:text-2xl font-medium text-caramel mb-6"
+                className="text-xl md:text-2xl font-medium text-espresso mb-6"
               >
                Mekiya Coffee – Ethiopia’s Finest, Delivered Worldwide
               </motion.h3>
@@ -118,7 +118,7 @@ const AboutSection = () => {
 
             <motion.p
               variants={itemVariants}
-              className="text-coffee/90 mb-8 leading-relaxed"
+              className="text-black mb-8 leading-relaxed"
             >
               With over 40 years of entrepreneurial legacy and a bold step into the specialty coffee export market in 2024, Mekiya Coffee bridges tradition and innovation. We partner directly with local farmers across Ethiopia to source highland-grown, traceable, and ethically cultivated coffee.
 
@@ -127,7 +127,7 @@ As a proudly family-led division of Mekiya Enterprise, we are committed to deliv
 
             <motion.ul
               variants={itemVariants}
-              className="space-y-4 text-coffee/80"
+              className="space-y-4 text-black"
             >
               {[
                 'Family-owned and quality-driven since 1984 EC',
@@ -141,7 +141,7 @@ As a proudly family-led division of Mekiya Enterprise, we are committed to deliv
                   whileHover={{ x: 5 }}
                   transition={{ type: "spring", stiffness: 400 }}
                 >
-                  <span className="w-2 h-2 bg-caramel/90 rounded-full shadow-sm" />
+                  <span className="w-2 h-2 bg-espresso rounded-full shadow-sm" />
                   {item}
                 </motion.li>
               ))}
