@@ -136,7 +136,7 @@ const SustainabilityHero = () => {
           animate="animate"
           className="flex flex-col items-center"
         >
-          <span className="text-cream-light text-sm mb-2">Scroll to contact form</span>
+          
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
             className="h-6 w-6 text-caramel" 
