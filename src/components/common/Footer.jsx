@@ -132,7 +132,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer ref={footerRef} className="bg-coffee-black text-cream pt-16 pb-8 overflow-hidden">
+    <footer ref={footerRef} className="bg-coffee-dark text-cream pt-16 pb-8 overflow-hidden">
       <div className="container mx-auto px-4">
         <motion.div 
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12"
@@ -165,7 +165,7 @@ const Footer = () => {
                 Mekiya Coffee
               </h2>
             </div>
-            <p className="text-cream/90 max-w-md">
+            <p className="text-white max-w-md">
               Exporting excellence since 2024. We connect exceptional Ethiopian coffee growers with discerning roasters worldwide, fostering sustainable partnerships and delivering premium quality.
             </p>
             <div className="pt-4">
@@ -181,7 +181,7 @@ const Footer = () => {
                 <Link 
                   key={link.name} 
                   href={link.path}
-                  className="text-cream/90 hover:text-caramel transition-colors duration-300 w-fit"
+                  className="text-white hover:text-caramel transition-colors duration-300 w-fit"
                 >
                   <motion.span 
                     whileHover={{ x: 5 }}
@@ -229,7 +229,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="text-caramel font-medium mb-1">Email</h4>
-                  <a href="mailto:info@ubuntucoffee.com" className="text-cream/90 hover:text-caramel transition-colors">
+                  <a href="mailto:info@ubuntucoffee.com" className="text-white hover:text-caramel transition-colors">
                     sabrina@mekiyaenterprise.com
                   </a>
                 </div>
@@ -243,7 +243,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="text-caramel font-medium mb-1">Phone</h4>
-                  <a href="tel:+251112345678" className="text-cream/90 hover:text-caramel transition-colors">
+                  <a href="tel:+251112345678" className="text-white hover:text-caramel transition-colors">
                     +251-911-27-46-56 (Ethiopia)
                   </a>
                 </div>
@@ -257,7 +257,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="text-caramel font-medium mb-1">Phone</h4>
-                  <a href="tel:+251112345678" className="text-cream/90 hover:text-caramel transition-colors">
+                  <a href="tel:+251112345678" className="text-white hover:text-caramel transition-colors">
                     +1-480-410-9898 (U.S.A)
                   </a>
                 </div>
@@ -271,7 +271,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="text-caramel font-medium mb-1">Address</h4>
-                  <p className="text-cream/90">
+                  <p className="text-white">
                     Bole Rwanda Woreda 02, 823,<br />
                    Addis Ababa, Ethiopia
                   </p>
@@ -289,7 +289,7 @@ const Footer = () => {
                     href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-coffee flex items-center justify-center text-cream/80 hover:text-caramel transition-colors"
+                    className="w-10 h-10 rounded-full bg-coffee flex items-center justify-center text-white hover:text-caramel transition-colors"
                     variants={socialIconVariants}
                     whileHover="hover"
                     aria-label={social.name}
@@ -306,7 +306,7 @@ const Footer = () => {
         <div className="pt-8 mt-8 border-t border-coffee-light/30">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <motion.p 
-              className="text-cream/90 text-sm text-center md:text-left"
+              className="text-white text-sm text-center md:text-left"
               initial={{ opacity: 0 }}
               // Change this to always be visible
               animate={{ opacity: 1 }}
@@ -321,10 +321,10 @@ const Footer = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 1 }}
             >
-              <a href="/privacy" className="text-cream/60 hover:text-caramel text-sm transition-colors">
+              <a href="/privacy" className="text-white hover:text-caramel text-sm transition-colors">
                 Privacy Policy
               </a>
-              <a href="/terms" className="text-cream/60 hover:text-caramel text-sm transition-colors">
+              <a href="/terms" className="text-white hover:text-caramel text-sm transition-colors">
                 Terms of Service
               </a>
             </motion.div>
