@@ -157,7 +157,7 @@ const ImpactMetrics = () => {
   return (
     <section 
       ref={sectionRef}
-      className="py-16 md:py-24 bg-cream-light text-coffee-dark overflow-hidden"
+      className="py-16 md:py-24 bg-white text-coffee-dark overflow-hidden"
       id="impact-metrics"
     >
       <div className="container mx-auto px-4 md:px-8">
@@ -185,7 +185,7 @@ const ImpactMetrics = () => {
           
           <motion.p 
             variants={textVariants}
-            className="text-lg text-coffee-light max-w-3xl mx-auto"
+            className="text-lg text-black max-w-3xl mx-auto"
           >
             Each number reflects real progress — for people, planet, and partners.
           </motion.p>
@@ -248,7 +248,7 @@ const ImpactMetrics = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          <div className="w-24 h-1 bg-caramel/30 rounded-full"></div>
+          <div className="w-24 h-1 bg-espresso rounded-full"></div>
         </motion.div>
       </div>
     </section>

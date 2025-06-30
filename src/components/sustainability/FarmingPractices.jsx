@@ -143,7 +143,7 @@ const FarmingPractices = () => {
   return (
     <section 
       ref={sectionRef}
-      className="py-20 md:py-28 bg-cream-light text-coffee-dark overflow-hidden"
+      className="py-20 md:py-28 bg-white text-coffee-dark overflow-hidden"
       id="farming-practices"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -171,7 +171,7 @@ const FarmingPractices = () => {
           
           <motion.p 
             variants={textVariants}
-            className="text-lg md:text-xl text-coffee-light max-w-3xl mx-auto"
+            className="text-lg md:text-xl text-black max-w-3xl mx-auto"
           >
             From soil to shipment, we protect what matters.
           </motion.p>
@@ -297,10 +297,10 @@ const FarmingPractices = () => {
               
               {/* Overlay text */}
               <div className="absolute bottom-0 left-0 right-0 p-6 text-center">
-                <span className="inline-block px-4 py-2 bg-caramel/90 text-white text-sm font-semibold rounded-md shadow-md mb-2">
+                <span className="inline-block px-4 py-2 bg-espresso text-white text-sm font-semibold rounded-md shadow-md mb-2">
                   Sustainable Ecosystem
                 </span>
-                <p className="text-coffee-dark text-xs md:text-sm">
+                <p className="text-black text-xs md:text-sm">
                   Balancing nature and agriculture for better coffee.
                 </p>
               </div>
@@ -320,7 +320,7 @@ const FarmingPractices = () => {
                 whileInView="visible"
                 viewport={{ once: true, margin: "-50px" }}
                 variants={practiceVariants}
-                className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1"
+                className="flex items-start gap-4 p-5 bg-espresso rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1"
               >
                 <motion.div 
                   className="text-caramel p-2 bg-caramel/10 rounded-full mt-1 flex-shrink-0"
@@ -333,11 +333,11 @@ const FarmingPractices = () => {
                 </motion.div>
                 
                 <div>
-                  <h3 className="text-xl md:text-2xl font-serif font-semibold text-coffee-dark mb-2">
+                  <h3 className="text-xl md:text-2xl font-serif font-semibold text-caramel mb-2">
                     {practice.title}
                   </h3>
                   
-                  <p className="text-coffee-light text-base leading-relaxed">
+                  <p className="text-white text-base leading-relaxed">
                     {practice.description}
                   </p>
                 </div>

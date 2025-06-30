@@ -74,7 +74,7 @@ const SustainabilityHero = () => {
         ref={backgroundRef}
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat z-0"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1591142968516-2f5708f1eff9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')",
+          backgroundImage: "url(/images/coffee5.jpg)",
           transform: 'scale(1.1)' // Slightly larger to allow for parallax movement
         }}
       />

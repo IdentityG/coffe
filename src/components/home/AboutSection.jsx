@@ -95,7 +95,7 @@ const AboutSection = () => {
           >
             <div className="relative">
               <motion.div 
-                className="absolute -left-6 top-1/2 w-1 h-20 bg-caramel rounded-full opacity-70 hidden md:block"
+                className="absolute -left-6 top-1/2 w-1 h-20 bg-espresso rounded-full opacity-70 hidden md:block"
                 initial={{ scaleY: 0 }}
                 animate={isInView ? { scaleY: 1 } : { scaleY: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}

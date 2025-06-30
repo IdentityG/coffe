@@ -520,25 +520,25 @@ const ProductShowcase = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative py-20 bg-cream overflow-hidden"
+      className="relative py-20 bg-white overflow-hidden"
     >
-      {/* Decorative elements */}
+      {/* Decorative elements 
       <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-cream-light to-transparent opacity-70"></div>
       <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-caramel/5 -z-10"></div>
-      <div className="absolute bottom-20 left-10 w-32 h-32 rounded-full bg-coffee/5 -z-10"></div>
+      <div className="absolute bottom-20 left-10 w-32 h-32 rounded-full bg-coffee/5 -z-10"></div> */}
       
       <div className="container mx-auto px-4">
         {/* Section title */}
         <div ref={titleRef} className="text-center mb-16">
           <div className="inline-block">
-            <span className="block h-0.5 w-10 bg-caramel mx-auto mb-6"></span>
+            <span className="block h-0.5 w-10 bg-espresso mx-auto mb-6"></span>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-coffee-dark mb-4">
               Our Coffees
             </h2>
-            <p className="text-lg text-coffee/80 max-w-2xl mx-auto">
+            <p className="text-lg text-black max-w-2xl mx-auto">
               Exceptional single-origin coffees sourced directly from farmers and cooperatives around Ethiopia
             </p>
-            <span className="block h-0.5 w-10 bg-caramel mx-auto mt-6"></span>
+            <span className="block h-0.5 w-10 bg-espresso mx-auto mt-6"></span>
           </div>
         </div>
 

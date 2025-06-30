@@ -173,7 +173,7 @@ const ProcessSection = () => {
               <div className="flex md:flex-col items-start md:items-center text-center">
                 {/* Icon */}
                 <motion.div 
-                  className="flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-full bg-coffee flex items-center justify-center text-2xl md:text-3xl mb-0 md:mb-4 mr-4 md:mr-0 z-10"
+                  className="flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-full bg-espresso flex items-center justify-center text-2xl md:text-3xl mb-0 md:mb-4 mr-4 md:mr-0 z-10"
                   variants={iconVariants}
                   initial="hidden"
                   animate="visible"

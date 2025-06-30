@@ -87,7 +87,7 @@ const MapSection = () => {
   return (
     <section 
       ref={sectionRef}
-      className="py-16 md:py-24 bg-cream text-coffee-dark overflow-hidden"
+      className="py-16 md:py-24 bg-white text-coffee-dark overflow-hidden"
       id="location"
     >
       <div className="container mx-auto px-4 md:px-8">
@@ -114,7 +114,7 @@ const MapSection = () => {
           
           <motion.p 
             variants={textVariants}
-            className="text-lg text-coffee-light max-w-2xl mx-auto"
+            className="text-lg text-black max-w-2xl mx-auto"
           >
             From Ethiopia to the world — visit us or ship direct.
           </motion.p>

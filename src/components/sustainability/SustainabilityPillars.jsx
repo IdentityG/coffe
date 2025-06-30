@@ -134,7 +134,7 @@ const SustainabilityPillars = () => {
   return (
     <section 
       ref={sectionRef}
-      className="py-16 md:py-24 bg-cream-light text-coffee-dark overflow-hidden"
+      className="py-16 md:py-24 bg-white text-coffee-dark overflow-hidden"
       id="sustainability-pillars"
     >
       <div className="container mx-auto px-4 md:px-8">
@@ -161,7 +161,7 @@ const SustainabilityPillars = () => {
           
           <motion.p 
             variants={textVariants}
-            className="text-lg text-coffee-light max-w-3xl mx-auto"
+            className="text-lg text-black max-w-3xl mx-auto"
           >
             We’re cultivating a coffee future that’s ethical, regenerative, and rooted in trust — where every step supports both the land and the people behind each bean.
           </motion.p>
@@ -208,7 +208,7 @@ const SustainabilityPillars = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
-            className="w-24 h-1 bg-caramel/30 rounded-full"
+            className="w-24 h-1 bg-espresso rounded-full"
           />
         </div>
       </div>

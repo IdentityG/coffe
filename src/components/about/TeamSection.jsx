@@ -123,7 +123,7 @@ const TeamSection = () => {
   return (
     <section 
       ref={sectionRef} 
-      className="py-20 md:py-28 bg-cream-light overflow-hidden"
+      className="py-20 md:py-28 bg-white overflow-hidden"
     >
       <div className="container mx-auto px-4 md:px-8">
         <motion.div
@@ -135,7 +135,7 @@ const TeamSection = () => {
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-coffee-dark mb-4">
             Meet the People Behind the Coffee
           </h2>
-          <p className="max-w-2xl mx-auto text-lg text-coffee">
+          <p className="max-w-2xl mx-auto text-lg text-black">
             Our diverse team brings passion and expertise to every step of the coffee journey.
           </p>
         </motion.div>

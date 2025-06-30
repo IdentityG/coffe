@@ -87,7 +87,7 @@ const OriginSection = () => {
     <section 
       id="origin-section"
       ref={sectionRef} 
-      className="py-20 md:py-28 bg-cream-light overflow-hidden"
+      className="py-20 md:py-28 bg-white overflow-hidden"
     >
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
@@ -122,14 +122,14 @@ const OriginSection = () => {
               
               <motion.p 
                 variants={itemVariants} 
-                className="text-lg text-coffee/90 leading-relaxed"
+                className="text-lg text-black leading-relaxed"
               >
                Born from the entrepreneurial legacy of Mekiya Enterprise, our coffee journey began with a commitment to quality, sustainability, and empowering Ethiopian farmers. In 2024, we officially entered the specialty coffee export market—connecting highland growers to discerning roasters around the world.
               </motion.p>
               
               <motion.p 
                 variants={itemVariants} 
-                className="text-lg text-coffee leading-relaxed"
+                className="text-lg text-black leading-relaxed"
               >
                 Our journey began with a simple belief: that exceptional coffee could create 
                 sustainable livelihoods for farming communities while delighting coffee lovers worldwide. 
@@ -153,12 +153,12 @@ const OriginSection = () => {
                       animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
                       transition={{ delay: 0.6 + (index * 0.2), duration: 0.5 }}
                     >
-                      <div className="flex-shrink-0 w-16 h-16 rounded-full bg-caramel flex items-center justify-center text-cream font-bold">
+                      <div className="flex-shrink-0 w-16 h-16 rounded-full bg-espresso flex items-center justify-center text-white font-bold">
                         {event.year}
                       </div>
                       <div>
                         <h4 className="text-lg font-medium text-coffee-dark">{event.title}</h4>
-                        <p className="text-coffee">{event.description}</p>
+                        <p className="text-black">{event.description}</p>
                       </div>
                     </motion.div>
                   ))}

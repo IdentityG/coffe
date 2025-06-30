@@ -180,7 +180,7 @@ const SustainabilityTimeline = () => {
   return (
     <section 
       ref={sectionRef}
-      className="py-16 md:py-24 bg-cream-light text-coffee-dark overflow-hidden"
+      className="py-16 md:py-24 bg-white text-coffee-dark overflow-hidden"
       id="sustainability-timeline"
     >
       <div className="container mx-auto px-4 md:px-8">
@@ -208,7 +208,7 @@ const SustainabilityTimeline = () => {
           
           <motion.p 
             variants={textVariants}
-            className="text-lg text-coffee-light max-w-3xl mx-auto"
+            className="text-lg text-black max-w-3xl mx-auto"
           >
             Sustainability is not a feature — it’s our foundation. Though Mekiya Coffee officially entered the specialty market in 2024, our values have been growing for decades through responsible farming, ethical trade, and environmental care.
           </motion.p>

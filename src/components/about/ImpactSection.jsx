@@ -189,10 +189,10 @@ const ImpactSection = () => {
   return (
     <section 
       ref={sectionRef} 
-      className="py-20 md:py-28 bg-cream-light text-cream overflow-hidden bg-[url('/coffee-farm-bg.jpg')] bg-cover bg-center bg-fixed bg-opacity-20 relative"
+      className="py-20 md:py-28 bg-white text-cream overflow-hidden bg-[url('/coffee-farm-bg.jpg')] bg-cover bg-center bg-fixed bg-opacity-20 relative"
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-cream-light/80"></div>
+      <div className="absolute inset-0 bg-white"></div>
       
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <motion.div
@@ -204,7 +204,7 @@ const ImpactSection = () => {
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-coffee-dark mb-4">
             Our Impact Begins at the Source
           </h2>
-          <p className="max-w-3xl mx-auto text-lg text-coffee/80">
+          <p className="max-w-3xl mx-auto text-lg text-black">
             Mekiya Coffee is more than an exporter — we’re a partner in agricultural resilience, rural prosperity, and sustainable growth. Together with our farmers, we cultivate more than coffee.
           </p>
         </motion.div>
