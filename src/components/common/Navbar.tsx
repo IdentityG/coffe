@@ -68,7 +68,7 @@ const Navbar = () => {
   
   return (
     <motion.header 
-      className="fixed w-full z-50 bg-coffee-dark shadow-lg"
+      className="fixed w-full z-50 bg-coffee-black shadow-lg"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ 
