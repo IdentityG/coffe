@@ -201,7 +201,7 @@ const ContactSection = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 overflow-hidden bg-white text-cream"
+      className="relative py-24 overflow-hidden bg-white text-caramel"
       id="contact"
     >
       {/* Decorative elements
@@ -235,7 +235,7 @@ const ContactSection = () => {
             >
               <motion.h3 
                 variants={itemVariants}
-                className="text-2xl font-serif text-caramel mb-6"
+                className="text-2xl font-serif text-caramel mb-6 font-bold"
               >
                 Contact Information
               </motion.h3>
@@ -249,8 +249,8 @@ const ContactSection = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-caramel font-medium mb-1">Email</h4>
-                    <a href="mailto:info@ubuntucoffee.com" className="text-cream/90 hover:text-caramel transition-colors">
+                    <h4 className="text-caramel font-bold mb-1">Email</h4>
+                    <a href="mailto:info@ubuntucoffee.com" className="text-white hover:text-caramel transition-colors">
                       info@ubuntucoffee.com
                     </a>
                   </div>
@@ -263,8 +263,8 @@ const ContactSection = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-caramel font-medium mb-1">Phone</h4>
-                    <a href="tel:+251112345678" className="text-cream/90 hover:text-caramel transition-colors">
+                    <h4 className="text-caramel font-bold mb-1">Phone</h4>
+                    <a href="tel:+251112345678" className="text-white hover:text-caramel transition-colors">
                       +251 11 234 5678
                     </a>
                   </div>
@@ -277,8 +277,8 @@ const ContactSection = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-caramel font-medium mb-1">Address</h4>
-                    <p className="text-cream/90">
+                    <h4 className="text-caramel font-bold mb-1">Address</h4>
+                    <p className="text-white">
                       Bole Road, Addis Ababa<br />
                       Ethiopia
                     </p>
@@ -292,8 +292,8 @@ const ContactSection = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-caramel font-medium mb-1">Business Hours</h4>
-                    <p className="text-cream/90">
+                    <h4 className="text-caramel font-bold mb-1">Business Hours</h4>
+                    <p className="text-white">
                       Monday - Friday: 9:00 AM - 5:00 PM<br />
                       Saturday: 10:00 AM - 2:00 PM
                     </p>
@@ -324,13 +324,13 @@ const ContactSection = () => {
           {/* Right Column - Contact Form */}
           <div ref={formRef} className="w-full lg:w-3/5">
             <div className="bg-coffee-dark p-8 rounded-xl shadow-xl">
-              <h3 className="text-2xl font-serif text-caramel mb-6 form-element">
+              <h3 className="text-2xl font-serif text-caramel mb-6 form-element font-bold">
                 Send Us a Message
               </h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="form-element">
-                  <label htmlFor="name" className="block text-cream/90 mb-2 font-medium">
+                  <label htmlFor="name" className="block text-white mb-2 font-medium">
                     Name <span className="text-caramel">*</span>
                   </label>
                   <input
@@ -347,7 +347,7 @@ const ContactSection = () => {
                 </div>
                 
                 <div className="form-element">
-                  <label htmlFor="email" className="block text-cream/90 mb-2 font-medium">
+                  <label htmlFor="email" className="block text-white mb-2 font-medium">
                     Email <span className="text-caramel">*</span>
                   </label>
                   <input
@@ -364,7 +364,7 @@ const ContactSection = () => {
                 </div>
                 
                 <div className="form-element">
-                  <label htmlFor="company" className="block text-cream/90 mb-2 font-medium">
+                  <label htmlFor="company" className="block mb-2 font-medium text-white">
                     Company Name
                   </label>
                   <input
@@ -380,7 +380,7 @@ const ContactSection = () => {
                 </div>
                 
                 <div className="form-element">
-                  <label htmlFor="message" className="block text-cream/90 mb-2 font-medium">
+                  <label htmlFor="message" className="block text-white mb-2 font-medium">
                     Message <span className="text-caramel">*</span>
                   </label>
                   <textarea
