@@ -165,7 +165,7 @@ const Footer = () => {
                 Mekiya Coffee
               </h2>
             </div>
-            <p className="text-cream/80 max-w-md">
+            <p className="text-cream/90 max-w-md">
               Exporting excellence since 2024. We connect exceptional Ethiopian coffee growers with discerning roasters worldwide, fostering sustainable partnerships and delivering premium quality.
             </p>
             <div className="pt-4">
@@ -181,14 +181,14 @@ const Footer = () => {
                 <Link 
                   key={link.name} 
                   href={link.path}
-                  className="text-cream/80 hover:text-caramel transition-colors duration-300 w-fit"
+                  className="text-cream/90 hover:text-caramel transition-colors duration-300 w-fit"
                 >
                   <motion.span 
                     whileHover={{ x: 5 }}
                     transition={{ type: "spring", stiffness: 400 }}
                     className="flex items-center"
                   >
-                    <span className="w-1.5 h-1.5 bg-caramel/70 rounded-full mr-2" />
+                    <span className="w-1.5 h-1.5 bg-caramel/90 rounded-full mr-2" />
                     {link.name}
                   </motion.span>
                 </Link>
@@ -229,7 +229,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="text-caramel font-medium mb-1">Email</h4>
-                  <a href="mailto:info@ubuntucoffee.com" className="text-cream/80 hover:text-caramel transition-colors">
+                  <a href="mailto:info@ubuntucoffee.com" className="text-cream/90 hover:text-caramel transition-colors">
                     sabrina@mekiyaenterprise.com
                   </a>
                 </div>
@@ -243,7 +243,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="text-caramel font-medium mb-1">Phone</h4>
-                  <a href="tel:+251112345678" className="text-cream/80 hover:text-caramel transition-colors">
+                  <a href="tel:+251112345678" className="text-cream/90 hover:text-caramel transition-colors">
                     +251-911-27-46-56 (Ethiopia)
                   </a>
                 </div>
@@ -257,7 +257,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="text-caramel font-medium mb-1">Phone</h4>
-                  <a href="tel:+251112345678" className="text-cream/80 hover:text-caramel transition-colors">
+                  <a href="tel:+251112345678" className="text-cream/90 hover:text-caramel transition-colors">
                     +1-480-410-9898 (U.S.A)
                   </a>
                 </div>
@@ -271,7 +271,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="text-caramel font-medium mb-1">Address</h4>
-                  <p className="text-cream/80">
+                  <p className="text-cream/90">
                     Bole Rwanda Woreda 02, 823,<br />
                    Addis Ababa, Ethiopia
                   </p>
@@ -306,7 +306,7 @@ const Footer = () => {
         <div className="pt-8 mt-8 border-t border-coffee-light/30">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <motion.p 
-              className="text-cream/60 text-sm text-center md:text-left"
+              className="text-cream/90 text-sm text-center md:text-left"
               initial={{ opacity: 0 }}
               // Change this to always be visible
               animate={{ opacity: 1 }}
