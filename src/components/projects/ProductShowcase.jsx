@@ -155,14 +155,14 @@ export const coffeeProducts = [
     flavor_profile: ["Earthy", "Sweet", "Herbal", "Balanced"],
     roast_level: "Medium",
     price: 18.99,
-    image: "https://images.unsplash.com/photo-1524350876685-274059728c24?q=80",
+    image: "/images/gimbi1.jpg",
     description: "Full-bodied with sweet, earthy notes and a clean finish, Gimbi is a classic washed Ethiopian profile.",
     size_options: ["250g", "500g", "1kg"],
     brewing_methods: ["Drip", "Siphon", "Espresso"],
     story: "Sourced from the high elevations of West Wollega, this coffee offers strength and balance in every cup.",
     farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
+      "/images/gimbi2.jpg",
+      "/images/gimbi3.jpg"
     ]
   },
   {
@@ -177,14 +177,14 @@ export const coffeeProducts = [
     flavor_profile: ["Floral", "Fruity", "Stone Fruit", "Tea-like"],
     roast_level: "Light",
     price: 22.49,
-    image: "https://images.unsplash.com/photo-1612392062631-94b23bc8c510?q=80",
+    image: "/images/bale1.webp",
     description: "Highland-grown and meticulously processed, Bale Mountain coffees boast vibrant florals and fruit clarity.",
     size_options: ["250g", "500g", "1kg"],
     brewing_methods: ["Pour Over", "AeroPress"],
     story: "Harvested at high elevation, this coffee captures the pure essence of Ethiopia’s mountain terroir.",
     farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
+      "/images/bale2.jpg",
+      "/images/bale3.jpg"
     ]
   },
   {
@@ -199,14 +199,14 @@ export const coffeeProducts = [
     flavor_profile: ["Deep", "Fruity", "Complex", "Earthy"],
     roast_level: "Medium",
     price: 21.49,
-    image: "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?q=80",
+    image: "/images/benji1.jpg",
     description: "A rare variety with deep, complex flavors, grown in forested highlands near the South Sudan border.",
     size_options: ["250g", "500g", "1kg"],
     brewing_methods: ["Drip", "French Press"],
     story: "Bench Maji coffees are wild-harvested and showcase the untamed richness of Ethiopia’s southwest forests.",
     farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
+      "/images/benji2.jpg",
+      "/images/benji3.jpg"
     ]
   },
   {
@@ -221,14 +221,14 @@ export const coffeeProducts = [
     flavor_profile: ["Jasmine", "Stone Fruit", "Bergamot", "Silky Body"],
     roast_level: "Light",
     price: 29.99,
-    image: "https://images.unsplash.com/photo-1629227071576-e393f3b6c6b6?q=80",
+    image: "/images/gesha1.jpeg",
     description: "Highly sought-after for its complexity and clarity, Gesha offers an aromatic, floral experience with bright citrus notes.",
     size_options: ["125g", "250g", "500g"],
     brewing_methods: ["Pour Over", "Chemex"],
     story: "Originally from Ethiopia and made famous in Panama, Gesha from Bench Maji is back to its roots—grown with care at high altitudes under perfect microclimates.",
     farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
+      "/images/gesha2.jpeg",
+      "/images/gesha1.webp"
     ]
   },
   {
@@ -243,14 +243,14 @@ export const coffeeProducts = [
     flavor_profile: ["Floral", "Fruity", "Sweet Spice", "Smooth"],
     roast_level: "Medium",
     price: 18.49,
-    image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80",
+    image: "/images/aricha1.webp",
     description: "A lesser-known gem with elegant florals and soft fruity notes, Andrecha offers subtle complexity.",
     size_options: ["250g", "500g", "1kg"],
     brewing_methods: ["Drip", "V60"],
     story: "Andrecha coffees are wild-harvested and known for their gentle sweetness and perfumed finish.",
     farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
+      "/images/aricha2.webp",
+      "/images/aricha3.jpeg"
     ]
   },
   {
@@ -265,14 +265,14 @@ export const coffeeProducts = [
     flavor_profile: ["Chocolate", "Nutmeg", "Rich Body", "Brown Sugar"],
     roast_level: "Medium-Dark",
     price: 17.49,
-    image: "https://images.unsplash.com/photo-1499744937866-d7e566a20a61?q=80",
+    image: "/images/godera1.jpg",
     description: "Chocolatey and smooth with nutty sweetness, Godere coffees offer comfort and balance.",
     size_options: ["250g", "500g", "1kg"],
     brewing_methods: ["French Press", "Espresso"],
     story: "Godere is a rising origin with volcanic soil and a strong cocoa finish that appeals to traditional palates.",
     farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
+      "/images/godera2.jpg",
+      "/images/godera1.jpg"
     ]
   },
   {
@@ -287,14 +287,14 @@ export const coffeeProducts = [
     flavor_profile: ["Fruity", "Silky", "Balanced Sweetness", "Mild Body"],
     roast_level: "Medium",
     price: 19.49,
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80",
+    image: "/images/teoi1.jpg",
     description: "Smooth and delicate with velvety texture, Tepi offers a gently sweet cup with mellow fruit notes.",
     size_options: ["250g", "500g", "1kg"],
     brewing_methods: ["AeroPress", "Pour Over"],
     story: "This honey-processed Tepi is a showcase of soft-bodied elegance and farmer innovation.",
     farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
+      "/images/tepi2.jpg",
+      "/images/tepi3.jpg"
     ]
   },
   {
@@ -309,82 +309,16 @@ export const coffeeProducts = [
     flavor_profile: ["Earthy", "Spice", "Herbal", "Mild Fruit"],
     roast_level: "Medium-Dark",
     price: 16.99,
-    image: "https://images.unsplash.com/photo-1477764160862-7a51f3f29cfb?q=80",
+    image: "/images/djimmah1.jpg",
     description: "Earthy and rustic, Djimmah is a staple in traditional blends with subtle spice and weighty mouthfeel.",
     size_options: ["250g", "500g", "1kg"],
     brewing_methods: ["Turkish", "French Press", "Espresso"],
     story: "One of Ethiopia’s largest coffee-producing regions, Jimma is known for wild, full-bodied naturals with unmistakable depth.",
     farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
+      "/images/djimmah2.jpg",
+      "/images/djimmah3.webp"
     ]
   },
-  {
-    id: 15,
-    name: "Mizan Teferi",
-    origin: "Bench Sheko Zone, Ethiopia",
-    grade: "Grade 3",
-    process: "Washed",
-    altitude: "1,700–2,100 meters",
-    harvest: "November–January",
-    certifications: ["Organic"],
-    flavor_profile: ["Citrus", "Floral", "Tea-like", "Mild Acidity"],
-    roast_level: "Medium",
-    price: 18.49,
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
-    description: "Balanced acidity and delicate florals make Mizan Teferi a refreshing and elegant washed coffee.",
-    size_options: ["250g", "500g", "1kg"],
-    brewing_methods: ["Pour Over", "AeroPress", "Siphon"],
-    story: "Mizan Teferi coffees come from lush, high-altitude microclimates where specialty farming is expanding.",
-    farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
-    ]
-  },
-  {
-    id: 16,
-    name: "Bebeka",
-    origin: "Southwest Ethiopia",
-    grade: "Grade 3",
-    process: "Natural",
-    altitude: "1,400–1,900 meters",
-    harvest: "October–December",
-    certifications: ["Organic"],
-    flavor_profile: ["Bold", "Nutty", "Chocolate", "Smooth Finish"],
-    roast_level: "Medium-Dark",
-    price: 17.99,
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80",
-    description: "Bold and chocolate-forward, Bebeka offers depth, comfort, and reliability in every brew.",
-    size_options: ["250g", "500g", "1kg"],
-    brewing_methods: ["Drip", "French Press", "Espresso"],
-    story: "Bebeka’s forests contribute to deep, complex flavors—perfect for those who love full-bodied, smooth coffees.",
-    farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
-    ]
-  },
-  {
-    id: 17,
-    name: "Anfilo",
-    origin: "Western Highlands, Kelem Wollega",
-    grade: "Grade 4",
-    process: "Natural",
-    altitude: "1,500–2,100 meters",
-    harvest: "October–December",
-    certifications:  ["Organic", "Fair Trade"],
-    flavor_profile: ["Complex", "Fruity", "Sweet Spice", "Tropical Notes"],
-    roast_level: "Medium",
-    price: 18.99,
-    image: "https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?q=80",
-    description: "A hidden treasure with layers of fruit and spice, Anfilo coffees are rich and uniquely structured.",
-    size_options: ["250g", "500g", "1kg"],
-    brewing_methods: ["AeroPress", "Pour Over", "Drip"],
-    story: "Anfilo grows quietly in the western highlands, where nutrient-rich soil yields rich character and intrigue.",
-    farm_images: [
-      "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=2574",
-      "https://images.unsplash.com/photo-1523287409476-a9e70a25af3f?q=80&w=2570"
-    ]
-  }
 ];
 
 const ProductShowcase = () => {
@@ -472,7 +406,7 @@ const ProductShowcase = () => {
   const cardVariants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
-      opacity: 1,
+      opacity: 0,
       y: 0,
       transition: {
         type: 'spring',
