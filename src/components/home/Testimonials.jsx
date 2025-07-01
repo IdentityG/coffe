@@ -21,38 +21,30 @@ const Testimonials = () => {
   
   // Testimonial data
   const testimonials = [
-    {
-      id: 1,
-      name: "Sarah Johnson",
-      company: "Artisan Roasters Co.",
-      quote: "The Ethiopian Yirgacheffe beans from Ubuntu consistently deliver exceptional quality. Their commitment to sustainability aligns perfectly with our brand values.",
-      rating: 5,
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976"
-    },
-    {
-      id: 2,
-      name: "Michael Chen",
-      company: "Pacific Bean Importers",
-      quote: "Working with Ubuntu has transformed our supply chain. Their attention to detail and consistent quality has made them our primary coffee supplier for over 5 years.",
-      rating: 5,
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974"
-    },
-    {
-      id: 3,
-      name: "Emma Rodriguez",
-      company: "Café Fuerte Distribution",
-      quote: "From order placement to delivery, Ubuntu's service is flawless. Their Colombian Supremo has become our bestselling coffee across all our distribution channels.",
-      rating: 5,
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961"
-    },
-    {
-      id: 4,
-      name: "David Müller",
-      company: "European Coffee Collective",
-      quote: "As a specialty coffee distributor, we demand the highest standards. Ubuntu not only meets but exceeds our expectations with every shipment.",
-      rating: 5,
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070"
-    },
+      {
+    id: 1,
+    name: "James Becker",
+    company: "Third Wave Imports – Germany",
+    quote: "Mekiya Coffee impressed us from day one. Their traceable lots from Guji and Yirgacheffe are not only consistent but also cup beautifully. We've built real trust with their team.",
+    rating: 5,
+    image: "/images/profile.png"
+  },
+  {
+    id: 2,
+    name: "Amina Noor",
+    company: "Bloom Roasters – UAE",
+    quote: "What sets Mekiya apart is their attention to farmer impact. We were proud to source from women-led cooperatives in Sidamo. Our customers love the story behind the cup.",
+    rating: 5,
+    image: "/images/profile.png"
+  },
+  {
+    id: 3,
+    name: "Carlos Mendes",
+    company: "Casa do Grão – Portugal",
+    quote: "We’ve been sourcing specialty lots from Ethiopia for years, and Mekiya Coffee brings a fresh level of transparency. Their logistics and sample support are exceptional.",
+    rating: 5,
+    image: "/images/profile.png"
+  }
   ];
   
   // Partner brands data with actual coffee brand logos
