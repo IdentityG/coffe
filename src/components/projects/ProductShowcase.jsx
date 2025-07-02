@@ -354,7 +354,7 @@ const ProductShowcase = () => {
         { y: 100, opacity: 1 },
         {
           y: 0,
-          opacity: 0,
+          opacity: 1,
           duration: 1.2,
           ease: 'power3.out',
           scrollTrigger: {
@@ -487,7 +487,7 @@ const ProductShowcase = () => {
           {coffeeProducts.map((product) => (
             <motion.div
               key={product.id}
-              className="coffee-card bg-cream-light rounded-xl overflow-hidden shadow-lg will-change-transform perspective-1000"
+              className="coffee-card bg-cream rounded-xl overflow-hidden shadow-lg will-change-transform perspective-1000"
               variants={cardVariants}
               whileHover={{ 
                 scale: 1.03, // Reduced scale for subtlety
@@ -556,7 +556,7 @@ const ProductShowcase = () => {
                 >
                   <Link 
                     href={`/products/${product.id}`}
-                    className="text-caramel hover:text-caramel-dark font-medium flex items-center"
+                    className="text-coffee-dark hover:text-caramel-dark font-medium flex items-center"
                   >
                     View Details
                     <motion.svg 

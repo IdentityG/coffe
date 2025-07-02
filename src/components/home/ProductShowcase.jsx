@@ -311,7 +311,7 @@ const ProductShowcase = () => {
           {coffeeProducts.map((product) => (
             <motion.div
               key={product.id}
-              className="coffee-card bg-cream-light rounded-xl overflow-hidden shadow-lg will-change-transform perspective-1000"
+              className="coffee-card bg-cream rounded-xl overflow-hidden shadow-lg will-change-transform perspective-1000"
               variants={cardVariants}
               whileHover={{ 
                 scale: 1.03, // Reduced scale for subtlety
