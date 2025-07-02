@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 // Import the coffee products data
-import { coffeeProducts } from '../../../components/home/ProductShowcase';
+import { coffeeProducts } from '../../../components/projects/ProductShowcase';
 
 export default function ProductDetail() {
   const { id } = useParams();
