@@ -251,7 +251,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-caramel font-bold mb-1">Email</h4>
                     <a href="mailto:info@ubuntucoffee.com" className="text-white hover:text-caramel transition-colors">
-                      info@ubuntucoffee.com
+                       sabrina@mekiyaenterprise.com
                     </a>
                   </div>
                 </motion.div>
@@ -265,7 +265,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-caramel font-bold mb-1">Phone</h4>
                     <a href="tel:+251112345678" className="text-white hover:text-caramel transition-colors">
-                      +251 11 234 5678
+                      +251-911-27-46-56
                     </a>
                   </div>
                 </motion.div>
@@ -279,7 +279,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-caramel font-bold mb-1">Address</h4>
                     <p className="text-white">
-                      Bole Road, Addis Ababa<br />
+                      Bole Rwanda, Woreda 02, 823, Addis Ababa<br />
                       Ethiopia
                     </p>
                   </div>

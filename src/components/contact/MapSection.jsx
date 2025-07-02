@@ -148,14 +148,14 @@ const MapSection = () => {
             <div className="mb-6 border-l-4 border-caramel pl-4">
               <h3 className="text-xl font-serif font-bold text-coffee-dark mb-2">Headquarters</h3>
               <address className="not-italic text-coffee-light">
-                <p className="mb-1">Mekiya Coffee Export Center</p>
-                <p className="mb-1">Bole Road, Addis Ababa</p>
+                <p className="mb-1">Mekiya Coffee</p>
+                <p className="mb-1">Bole Rwanda, Addis Ababa</p>
                 <p className="mb-4">Ethiopia, East Africa</p>
                 <p className="flex items-center gap-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-caramel" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
-                  <span>+251 11 123 4567</span>
+                  <span>+251-911-27-46-56</span>
                 </p>
               </address>
             </div>
