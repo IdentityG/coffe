@@ -38,7 +38,7 @@ const ProcessSection = () => {
       icon: "📦",
       title: "Packaging",
       description: "Our coffee is packed in climate-controlled environments using GrainPro-lined bags and eco-conscious materials to maintain freshness.",
-      image: "/images/package.png"
+      image: "/images/package.webp"
     },
     {
       icon: "🚢",
