@@ -85,7 +85,7 @@ export const coffeeProducts = [
     process: "Natural",
     altitude: "1,510-2,120 meters",
     harvest: "October–February",
-    certifications: ["Organic"],
+    certifications: ["Special Natural Coffee"],
     flavor_profile: ["Raisin", "Blueberry", "Wine", "Mocha"],
     roast_level: "Medium-Dark",
     price: 18.49,
@@ -173,7 +173,7 @@ export const coffeeProducts = [
     process: "Natural",
     altitude: "2,000–2,300 meters",
     harvest: "October–December",
-    certifications: ["Specialty"],
+    certifications: ["Special Natural Coffee"],
     flavor_profile: ["Floral", "Fruity", "Stone Fruit", "Tea-like"],
     roast_level: "Light",
     price: 22.49,
@@ -195,7 +195,7 @@ export const coffeeProducts = [
     process: "Washed",
     altitude: "1,600–2,200 meters",
     harvest: "October–January",
-    certifications: ["Conventional"],
+    certifications: ["Specialty", "Conventional"],
     flavor_profile: ["Deep", "Fruity", "Complex"],
     roast_level: "Medium",
     price: 21.49,
@@ -261,7 +261,7 @@ export const coffeeProducts = [
     process: "Natural",
     altitude: "1,400–1,800 meters",
     harvest: "October–January",
-    certifications: [],
+    certifications: ["Specialty", "Conventional"],
     flavor_profile: ["Chocolate", "Nutmeg", "Rich Body", "Brown Sugar"],
     roast_level: "Medium-Dark",
     price: 17.49,
@@ -435,7 +435,7 @@ const ProductShowcase = () => {
   // Certification badge component
   const CertificationBadge = ({ type }) => {
     const badgeColors = {
-      'Organic': 'bg-green-100 text-green-800 border-green-300',
+      'Special Natural Coffee': 'bg-green-100 text-green-800 border-green-300',
       'Specialty': 'bg-blue-100 text-blue-800 border-blue-300',
       'Conventional': 'bg-emerald-100 text-emerald-800 border-emerald-300',
     };

@@ -24,7 +24,7 @@ const Testimonials = () => {
       {
     id: 1,
     name: "James Becker",
-    company: "Third Wave Imports – Germany",
+    company: "Germany",
     quote: "Mekiya Coffee impressed us from day one. Their traceable lots from Guji and Yirgacheffe are not only consistent but also cup beautifully. We've built real trust with their team.",
     rating: 5,
     image: "/images/profile.png"
@@ -32,7 +32,7 @@ const Testimonials = () => {
   {
     id: 2,
     name: "Amina Noor",
-    company: "Bloom Roasters – UAE",
+    company: "UAE",
     quote: "What sets Mekiya apart is their attention to farmer impact. We were proud to source from women-led cooperatives in Sidamo. Our customers love the story behind the cup.",
     rating: 5,
     image: "/images/profile.png"
@@ -40,7 +40,7 @@ const Testimonials = () => {
   {
     id: 3,
     name: "Carlos Mendes",
-    company: "Casa do Grão – Portugal",
+    company: "Canada",
     quote: "We’ve been sourcing specialty lots from Ethiopia for years, and Mekiya Coffee brings a fresh level of transparency. Their logistics and sample support are exceptional.",
     rating: 5,
     image: "/images/profile.png"
