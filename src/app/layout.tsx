@@ -23,8 +23,15 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Mekiya Coffee Export",
+  title: "Mekiya Coffee",
   description: "Premium coffee exports worldwide",
+  icons: {
+    icon: [
+    { url: '/mekiya.png', sizes: '1000x1000', type: 'image/png' },
+    ],
+    shortcut: '/mekiya.png',
+    apple: '/mekiya.png',
+  },
 };
 
 export default function RootLayout({
