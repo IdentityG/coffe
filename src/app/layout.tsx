@@ -23,11 +23,35 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Mekiya Coffee",
-  description: "Premium coffee exports worldwide",
+  title: "Mekiya Coffee | Premium Ethiopian Coffee Exporter",
+  description: "Discover Mekiya Coffee - Ethiopia's premier exporter of specialty coffee beans including Yirgacheffe, Sidamo, and Harar varieties. Sustainable, direct trade, and exceptional quality.",
+  keywords: "Ethiopian coffee, coffee exporter, specialty coffee, Mekiya Coffee, sustainable coffee, direct trade coffee",
+  authors: [{ name: "Mekiya Coffee" }],
+  openGraph: {
+    title: "Mekiya Coffee | Premium Ethiopian Coffee Exporter",
+    description: "Discover Ethiopia's finest coffee beans - sustainably sourced and expertly processed for exceptional flavor profiles.",
+    url: "https://mekiyacoffee.com",
+    siteName: "Mekiya Coffee",
+    images: [
+      {
+        url: '/mekiya.png',
+        width: 1000,
+        height: 1000,
+        alt: 'Mekiya Coffee Logo',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mekiya Coffee | Premium Ethiopian Coffee',
+    description: 'Specialty coffee beans from Ethiopia - sustainably sourced and expertly processed.',
+    images: ['/mekiya.png'],
+  },
   icons: {
     icon: [
-    { url: '/mekiya.png', sizes: '1000x1000', type: 'image/png' },
+      { url: '/mekiya.png', sizes: '1000x1000', type: 'image/png' },
     ],
     shortcut: '/mekiya.png',
     apple: '/mekiya.png',
